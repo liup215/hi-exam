@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -35,6 +36,10 @@ public class HomeController {
      */
     @RequestMapping("/home")
     public String directToBaseHomePage(){
+        if(1==1){
+            return "redirect:/admin/home";
+        }
+
 
         return "/home.html";
     }
