@@ -20,7 +20,7 @@ server:
 beetl:
   delimiter-statement-start: \@   #开始结束标签(yaml不允许@开头)
   delimiter-statement-end: null
-  resource-tagroot: com.hidear.exam.common/tags   #自定义标签文件Root目录和后缀
+  resource-tagroot: common/tags   #自定义标签文件Root目录和后缀
   resource-tagsuffix: tag
 
 
@@ -66,7 +66,7 @@ spring:
 spring:
   profiles: dev
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/examxx?useSSL=false&autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://127.0.0.1:3306/hi_exam?useSSL=false&autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
       username: root
       password: 123456
       filters: log4j,wall,mergeStat
@@ -83,7 +83,7 @@ logging:
 spring:
   profiles: produce
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/examxx?useSSL=false&autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://127.0.0.1:3306/hi_exam?useSSL=false&autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
       username: root
       password: 123456
       filters: log4j,wall,mergeStat

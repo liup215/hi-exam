@@ -39,7 +39,7 @@ public class Menu {
     /**
      * 当前菜单的所有父菜单编号
      */
-	@Column(name = "pcodes",nullable = false,length = 255)
+	@Column(name = "pcodes",nullable = true,length = 255)
 	private String pcodes;
     /**
      * 菜单名称
@@ -49,7 +49,7 @@ public class Menu {
     /**
      * 菜单图标
      */
-	@Column(name = "icon",nullable = false,length = 255)
+	@Column(name = "icon",nullable = true,length = 255)
 	private String icon;
     /**
      * url地址
@@ -74,7 +74,7 @@ public class Menu {
     /**
      * 备注
      */
-	@Column(name = "tips",nullable = false,length = 255)
+	@Column(name = "tips",nullable = true,length = 255)
 	private String tips;
     /**
      * 菜单状态 :  1:启用   0:不启用
@@ -192,5 +192,22 @@ public class Menu {
 		this.isopen = isopen;
 	}
 
-
+	@Override
+	public String toString() {
+		return "Menu{" +
+				"id=" + id +
+				", code='" + code + '\'' +
+				", pcode='" + pcode + '\'' +
+				", pcodes='" + pcodes + '\'' +
+				", name='" + name + '\'' +
+				", icon='" + icon + '\'' +
+				", url='" + url + '\'' +
+				", num=" + num +
+				", levels=" + levels +
+				", ismenu=" + ismenu +
+				", tips='" + tips + '\'' +
+				", status=" + status +
+				", isopen=" + isopen +
+				'}';
+	}
 }
