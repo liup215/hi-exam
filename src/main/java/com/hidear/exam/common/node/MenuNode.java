@@ -1,7 +1,6 @@
 package com.hidear.exam.common.node;
 
-import com.hidear.exam.common.status.IsMenu;
-import com.hidear.exam.core.util.SpringContextHolder;
+import com.hidear.exam.common.constant.state.IsMenu;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -203,8 +202,6 @@ public class MenuNode implements Comparable {
             MenuNode node = (MenuNode) iterator.next();
             // 根据传入的某个父节点ID,遍历该父节点的所有子节点
             if (node.getParentId() != 0 && parentId.equals(node.getParentId())) {
-
-                System.out.println(node.getParentId());
                 recursionFn(nodeList, node, parentId);
             }
         }
@@ -290,10 +287,6 @@ public class MenuNode implements Comparable {
     public static List<MenuNode> buildTitle(List<MenuNode> nodes) {
 
         List<MenuNode> clearBtn = clearBtn(nodes);
-
-        for(MenuNode node:clearBtn){
-            System.out.println(node.toString());
-        }
 
         new MenuNode().buildNodeTree(clearBtn);
 

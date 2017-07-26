@@ -41,7 +41,7 @@ spring:
         hbm2ddl:
           auto: update
         dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
-        show_sql: true
+        show_sql: false
 
 ###################  mybatis-plus配置  ###################
 #mybatis-plus:
@@ -73,7 +73,7 @@ spring:
 
 logging:
   level: debug
-  file: logs/guns.log
+  file: logs/exam.log
 
 ---
 

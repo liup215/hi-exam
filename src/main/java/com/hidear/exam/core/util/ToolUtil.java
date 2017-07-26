@@ -1,5 +1,6 @@
 package com.hidear.exam.core.util;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -47,5 +48,13 @@ public class ToolUtil {
 
     public static boolean isNotEmpty(Object o){
         return !isEmpty(o);
+    }
+
+    public static String dateType(Object o){
+        if(o instanceof Date){
+            return DateUtil.getDay((Date) o);
+        }else{
+            return o.toString();
+        }
     }
 }

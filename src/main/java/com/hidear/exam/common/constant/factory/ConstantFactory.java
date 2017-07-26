@@ -6,15 +6,13 @@ import com.hidear.exam.core.support.StrKit;
 import com.hidear.exam.core.util.Convert;
 import com.hidear.exam.core.util.SpringContextHolder;
 import com.hidear.exam.core.util.ToolUtil;
-import com.hidear.exam.modular.dao.MenuRepository;
-import com.hidear.exam.modular.dao.RoleRepository;
-import com.hidear.exam.modular.model.Menu;
-import com.hidear.exam.modular.model.Role;
+import com.hidear.exam.modular.system.dao.MenuRepository;
+import com.hidear.exam.modular.system.dao.RoleRepository;
+import com.hidear.exam.modular.system.model.Menu;
+import com.hidear.exam.modular.system.model.Role;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 /**
  * 常量的生产工厂

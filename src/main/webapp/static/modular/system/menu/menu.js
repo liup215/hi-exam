@@ -90,7 +90,7 @@ Menu.delMenu = function () {
             ajax.start();
         };
 
-        Feng.confirm("是否刪除该菜单?", operation);
+        Feng.confirm("是否刪除该菜单及其所有子菜单?", operation);
     }
 };
 

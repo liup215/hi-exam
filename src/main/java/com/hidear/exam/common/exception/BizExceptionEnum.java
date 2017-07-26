@@ -55,7 +55,12 @@ public enum BizExceptionEnum {
 	/**
 	 * 获取用户信息异常
 	 */
-	NO_USERID_PARAM(400,"缺少用户ID");
+	NO_USERID_PARAM(400,"缺少用户ID"),
+
+	/**
+	 * 更新菜单异常
+	 */
+	CODE_EXIST(400,"菜单code已经存在");
 
 	BizExceptionEnum(int code, String message) {
 		this.friendlyCode = code;
