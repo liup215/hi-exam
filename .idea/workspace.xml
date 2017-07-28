@@ -3,586 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89a1888f-98a9-41ed-956f-28c6db0988dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/data/document.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/data/document.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/data/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/data/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/上传资料/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/上传资料/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/上传资料/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/上传资料/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/下载资料/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/下载资料/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/下载资料/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/下载资料/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/专项练习/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/专项练习/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/专项练习/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/专项练习/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/个人中心/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/个人中心/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/个人中心/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/个人中心/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/个人中心_1/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/个人中心_1/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/个人中心_1/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/个人中心_1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/个人资料/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/个人资料/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/个人资料/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/个人资料/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/分角色功能预览/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/分角色功能预览/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/分角色功能预览/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/分角色功能预览/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/前往刷题/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/前往刷题/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/前往刷题/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/前往刷题/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/功能流程/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/功能流程/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/功能流程/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/功能流程/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/历史测验/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/历史测验/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/历史测验/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/历史测验/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/名校测验/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/名校测验/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/名校测验/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/名校测验/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/启动页/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/启动页/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/启动页/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/启动页/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/启动页_1/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/启动页_1/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/启动页_1/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/启动页_1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/命题/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/命题/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/命题/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/命题/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/大题专练/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/大题专练/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/大题专练/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/大题专练/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/学习指导/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/学习指导/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/学习指导/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/学习指导/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/审卷/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/审卷/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/审卷/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/审卷/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/审题/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/审题/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/审题/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/审题/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/工作中心/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/工作中心/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/工作中心/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/工作中心/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/平台动态/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/平台动态/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/平台动态/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/平台动态/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/平台联考/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/平台联考/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/平台联考/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/平台联考/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/成绩分析/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/成绩分析/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/成绩分析/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/成绩分析/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/我的收益/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/我的收益/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/我的收益/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/我的收益/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/我的钱包/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/我的钱包/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/我的钱包/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/我的钱包/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/拍照测验/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/拍照测验/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/拍照测验/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/拍照测验/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/指导/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/指导/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/指导/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/指导/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/排行榜/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/排行榜/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/排行榜/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/排行榜/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/搜索资料/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/搜索资料/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/搜索资料/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/搜索资料/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/教师认证/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/教师认证/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/教师认证/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/教师认证/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/注册/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/注册/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/注册/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/注册/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/注册_1/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/注册_1/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/注册_1/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/注册_1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/登录/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/登录/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/登录/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/登录/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/登录_1/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/登录_1/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/登录_1/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/登录_1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/社区交流/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/社区交流/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/社区交流/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/社区交流/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/精华专题/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/精华专题/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/精华专题/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/精华专题/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/系统架构/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/系统架构/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/系统架构/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/系统架构/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/练习成就/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/练习成就/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/练习成就/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/练习成就/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/组卷/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/组卷/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/组卷/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/组卷/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/组卷测验/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/组卷测验/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/组卷测验/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/组卷测验/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/讨论区/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/讨论区/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/讨论区/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/讨论区/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/设置/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/设置/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/设置/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/设置/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/评卷/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/评卷/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/评卷/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/评卷/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/试题中心/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/试题中心/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/试题中心/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/试题中心/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/资料中心/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/资料中心/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/资料中心/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/资料中心/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/进入测验/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/进入测验/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/进入测验/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/进入测验/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/错题练习/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/错题练习/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/错题练习/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/错题练习/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/阅卷/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/阅卷/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/阅卷/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/阅卷/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/随机刷题/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/随机刷题/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/随机刷题/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/随机刷题/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/页面流程/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/页面流程/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/页面流程/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/页面流程/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/页面流程_1/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/页面流程_1/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/页面流程_1/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/页面流程_1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/首页/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/首页/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/首页/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/首页/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/首页_1/data.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/首页_1/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/files/首页_1/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/files/首页_1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u320_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u320_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u322_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u322_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u322_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u322_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u322_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u322_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u324_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u324_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u326_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u326_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u328_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u328_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u330_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u330_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u330_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u330_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u330_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u330_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u332_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u332_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u332_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u332_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u332_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u332_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u334_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u334_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u334_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u334_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u334_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u334_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u336_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u336_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u338_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u338_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u338_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u338_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u338_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u338_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u342_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u342_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u342_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u342_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u342_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u342_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u346_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u346_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u346_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u346_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u346_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u346_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u350_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u350_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u350_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u350_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u350_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u350_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u350_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u350_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u352_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u352_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u354_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u354_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u354_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u354_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u354_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u354_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u354_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u354_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u356_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u356_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u356_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u356_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u356_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u356_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u358_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u358_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u358_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u358_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u358_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u358_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u360_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u360_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u360_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u360_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u360_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u360_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u362_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u362_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u362_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u362_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u362_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u362_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u364_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u364_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u366_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u366_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u366_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u366_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u366_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u366_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u368_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u368_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u368_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u368_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u408_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u408_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u408_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u408_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u408_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u408_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u410_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u410_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u410_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u410_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u416_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u416_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u416_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u416_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u416_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u416_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u418_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u418_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u418_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u418_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u418_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u418_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u420_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u420_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u420_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u420_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u424_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u424_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u424_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u424_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u424_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u424_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u426_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u426_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u426_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u426_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u430_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u430_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u430_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u430_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u430_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u430_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u434_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u434_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u434_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u434_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u434_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u434_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u436_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u436_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u436_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u436_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u440_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u440_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u440_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u440_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u472_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u472_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u472_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u472_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u472_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u472_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u472_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u472_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u474_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u474_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u480_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u480_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u480_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u480_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u480_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u480_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u480_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u480_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u482_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u482_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u482_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u482_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u486_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u486_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u486_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u486_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u488_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u488_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u488_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u488_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u488_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u488_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u492_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u492_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u492_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u492_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u494_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u494_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/分角色功能预览/u494_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/分角色功能预览/u494_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u138.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u138.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u144_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u144_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u148_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u148_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u148_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u148_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u148_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u148_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u148_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u148_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u150_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u150_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u150_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u150_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u156_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u156_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u158_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u158_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u158_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u158_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u164_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u164_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u168_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u168_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u168_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u168_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u168_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u168_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u168_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u168_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u172_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u172_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u174_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u174_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u174_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u174_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u174_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u174_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u174_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u174_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u182_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u182_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u186_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u186_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u186_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u186_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u186_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u186_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u188_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u188_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u188_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u188_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u190_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u190_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u194_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u194_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u194_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u194_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u194_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u194_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u200_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u200_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u204_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u204_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u206_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u206_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u206_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u206_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u206_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u206_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u206_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u206_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u210_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u210_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u212_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u212_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u216_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u216_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u220_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u220_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u220_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u220_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u220_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u220_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u224_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u224_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u224_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u224_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u228_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u228_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u232_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u232_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u234_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u234_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u234_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u234_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u238_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u238_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u250_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u250_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u250_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u250_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u250_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u250_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u252_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u252_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u256_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u256_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u260_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u260_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u262_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u262_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u262_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u262_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u264_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u264_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u266_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u266_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u270_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u270_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u270_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u270_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u276_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u276_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u278_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u278_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/功能流程/u282_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/功能流程/u282_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/审卷/u852.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/审卷/u852.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/工作中心/u785.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/工作中心/u785.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/工作中心/u789.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/工作中心/u789.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/注册/u593.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/注册/u593.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/注册/u595.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/注册/u595.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/注册/u612.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/注册/u612.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/注册/u627.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/注册/u627.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/登录/u653.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/登录/u653.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u100_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u100_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u100_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u100_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u100_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u100_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u100_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u100_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u124_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u124_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u124_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u124_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u124_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u124_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u70_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u70_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u70_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u70_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u70_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u70_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u70_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u70_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u72_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u72_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u72_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u72_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u74_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u74_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u74_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u74_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u84_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u84_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u84_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u84_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u98_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u98_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u98_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u98_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u98_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u98_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/系统架构/u98_seg3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/系统架构/u98_seg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/试题中心/u1094.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/试题中心/u1094.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u508_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u508_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u510_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u510_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u512_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u512_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u512_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u512_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u512_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u512_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u514_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u514_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u514_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u514_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u518_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u518_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u528_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u528_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u530_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u530_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u530_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u530_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u530_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u530_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u532_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u532_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u534_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u534_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u540_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u540_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u542_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u542_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u542_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u542_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u542_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u542_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u554_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u554_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u554_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u554_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u554_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u554_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u556_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u556_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u558_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u558_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u570_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u570_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u570_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u570_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u586_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u586_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u586_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u586_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u588_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u588_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程/u588_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程/u588_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1153_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1153_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1157_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1157_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1161_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1161_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1161_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1161_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1161_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1161_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1163_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1163_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1167_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1167_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1179_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1179_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1183_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1183_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1183_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1183_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1185_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1185_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1187_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1187_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1187_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1187_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1189_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1189_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1191_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1191_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1207_seg0.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1207_seg0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1207_seg2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1207_seg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1213_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1213_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/页面流程_1/u1215_seg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/页面流程_1/u1215_seg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u674.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u674.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u676.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u676.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u679.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u679.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u704.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u704.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u716.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u716.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u720.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u720.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u722.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u722.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/images/首页/u724.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/images/首页/u724.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/debug.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/debug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/debug.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/debug.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/reset.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/reset.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/reset_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/reset_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/variables_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/variables_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/variables_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/variables_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/variables_off.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/variables_off.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/variables_off.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/variables_off.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/variables_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/variables_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/debug/styles/images/variables_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/debug/styles/images/variables_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/page_notes.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/page_notes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/back.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/back.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/back.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/back.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/back_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/back_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/back_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/back_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/footnotes.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/footnotes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/footnotes.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/footnotes.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/footnotes_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/footnotes_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/footnotes_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/footnotes_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/footnotes_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/footnotes_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/footnotes_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/footnotes_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/forward.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/forward.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/forward.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/forward.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/forward_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/forward_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/forward_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/forward_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/notes_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/notes_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/notes_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/notes_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/notes_off.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/notes_off.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/notes_off.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/notes_off.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/notes_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/notes_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/images/notes_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/images/notes_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/page_notes/styles/page_notes.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/page_notes/styles/page_notes.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/recordplay/recordplay.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/recordplay/recordplay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/recordplay/styles/recordplay.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/recordplay/styles/recordplay.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/sitemap.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/sitemap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/079_page_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/079_page_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/086_case_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/086_case_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/225_responsive_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/225_responsive_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/228_togglenotes_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/228_togglenotes_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/229_variables_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/229_variables_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/231_event_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/231_event_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/232_search_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/232_search_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/233_hyperlink_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/233_hyperlink_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/235_folderclosed_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/235_folderclosed_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/236_folderopen_16.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/236_folderopen_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/adaptivecheck.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/adaptivecheck.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/flow.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/flow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/flow.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/flow.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/folder_closed.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/folder_closed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/folder_closed.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/folder_closed.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/folder_open.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/folder_open.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/folder_open.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/folder_open.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/hotspots.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/hotspots.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/hotspots.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/hotspots.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/hotspots_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/hotspots_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/hotspots_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/hotspots_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/hotspots_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/hotspots_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/hotspots_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/hotspots_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/images.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/images.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/minus.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/minus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/note.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/note.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/note.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/note.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/page.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/page.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/page.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/page.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/plus.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/plus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/share.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/share.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/share.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/share.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/share_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/share_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/share_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/share_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/share_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/share_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/share_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/share_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/sitemap_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/sitemap_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/sitemap_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/sitemap_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/sitemap_off.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/sitemap_off.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/sitemap_off.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/sitemap_off.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/sitemap_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/sitemap_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/sitemap_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/sitemap_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/views.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/views.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/views.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/views.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/views_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/views_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/views_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/views_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/views_on.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/views_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/images/views_on.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/images/views_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/plugins/sitemap/styles/sitemap.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/plugins/sitemap/styles/sitemap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/Other.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/Other.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/allow_access.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/allow_access.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/axure-chrome-extension.crx" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/axure-chrome-extension.crx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/axure_logo.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/axure_logo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/axure_logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/axure_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/chrome.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/chrome.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/extensions_menu.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/extensions_menu.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/splitter.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/splitter.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/chrome/splitter.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/chrome/splitter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/axure_rp_page.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/axure_rp_page.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/default.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/images.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/images.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/newwindow.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/newwindow.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/note.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/note.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-icons_222222_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-icons_2e83ff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-icons_454545_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-icons_888888_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/jquery-ui-themes.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/jquery-ui-themes.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/css/reset.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/expand.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/expand.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/259_close_12rollover1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/259_close_12rollover1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/259_close_12rollover2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/259_close_12rollover2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/260_collapse_12rollover1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/260_collapse_12rollover1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/260_collapse_12rollover2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/260_collapse_12rollover2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/261_expand_12rollover1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/261_expand_12rollover1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/261_expand_12rollover2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/261_expand_12rollover2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/close.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/close.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/close.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/close_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/close_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/close_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/close_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/divider.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/divider.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/divider.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/divider.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/expand.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/expand.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/expand.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/expand.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/expand_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/expand_hover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/expand_hover.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/expand_hover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/images.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/images.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/images/transparent.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/images/transparent.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/reload.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/reload.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/action.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/action.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/adaptive.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/adaptive.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/annotation.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/annotation.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/axQuery.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/axQuery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/axQuery.std.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/axQuery.std.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/doc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/doc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/drag.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/drag.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/events.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/expr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/expr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/flyout.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/flyout.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/geometry.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/geometry.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/globals.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/globals.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/ie.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/init.temp.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/init.temp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/legacy.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/legacy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/math.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/math.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/model.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/model.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/move.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/move.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/recording.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/recording.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/repeater.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/repeater.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/sto.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/sto.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/style.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/tree.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/tree.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/utils.temp.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/utils.temp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/variables.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/variables.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/viewer.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/viewer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axure/visibility.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axure/visibility.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/axutils.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/axutils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/jquery-1.7.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/jquery-ui-1.8.10.custom.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/jquery-ui-1.8.10.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/messagecenter.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/messagecenter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/player/axplayer.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/player/axplayer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/resources/scripts/player/splitter.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/resources/scripts/player/splitter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/start.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/start.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/start_c_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/start_c_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/start_g_0.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/start_g_0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/上传资料.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/上传资料.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/下载资料.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/下载资料.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/专项练习.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/专项练习.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/个人中心.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/个人中心.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/个人中心_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/个人中心_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/个人资料.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/个人资料.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/分角色功能预览.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/分角色功能预览.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/前往刷题.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/前往刷题.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/功能流程.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/功能流程.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/历史测验.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/历史测验.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/名校测验.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/名校测验.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/启动页.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/启动页.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/启动页_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/启动页_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/命题.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/命题.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/大题专练.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/大题专练.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/学习指导.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/学习指导.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/审卷.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/审卷.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/审题.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/审题.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/工作中心.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/工作中心.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/平台动态.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/平台动态.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/平台联考.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/平台联考.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/成绩分析.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/成绩分析.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/我的收益.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/我的收益.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/我的钱包.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/我的钱包.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/拍照测验.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/拍照测验.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/指导.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/指导.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/排行榜.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/排行榜.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/搜索资料.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/搜索资料.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/教师认证.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/教师认证.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/注册.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/注册.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/注册_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/注册_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/登录.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/登录.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/登录_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/登录_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/社区交流.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/社区交流.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/精华专题.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/精华专题.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/系统架构.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/系统架构.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/练习成就.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/练习成就.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/组卷.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/组卷.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/组卷测验.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/组卷测验.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/讨论区.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/讨论区.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/设置.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/设置.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/评卷.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/评卷.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/试题中心.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/试题中心.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/资料中心.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/资料中心.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/进入测验.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/进入测验.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/错题练习.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/错题练习.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/阅卷.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/阅卷.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/随机刷题.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/随机刷题.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/页面流程.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/页面流程.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/页面流程_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/页面流程_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/首页.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/首页.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/产品文档/首页_1.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/product/首页_1.html" />
     </list>
     <ignored path="hi-exam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -618,8 +38,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="354">
+              <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -767,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -787,49 +206,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -840,7 +220,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="js-jscs-nodeInterpreter" value="D:\developer\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hi-exam-product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/programtool/ide/idea/workspace/hi-exam/src/main/java/com/hidear/exam/modular/controller/HomeController.java" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -1429,11 +809,12 @@
       <workItem from="1500860307953" duration="19043000" />
       <workItem from="1501035764908" duration="2553000" />
       <workItem from="1501054794922" duration="215000" />
+      <workItem from="1501234809883" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80378000" />
+    <option name="totallyTimeSpent" value="80995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1457,8 +838,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1850,8 +1231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        <state relative-caret-position="354">
+          <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
           <folding />
         </state>
       </provider>
