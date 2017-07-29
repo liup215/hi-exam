@@ -55,7 +55,7 @@ public class GradeController {
         return PREFIX+"grade_add.html";
     }
     
-    @RequestMapping(value="/grade_add",method = RequestMethod.POST)
+    @RequestMapping(value="/add",method = RequestMethod.POST)
     public Tip addGrade(){
     	
     	return new SuccessTip();
