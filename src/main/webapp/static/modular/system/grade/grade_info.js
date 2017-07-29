@@ -100,7 +100,7 @@ GradeInfoDlg.addSubmit = function () {
     }
 
     //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/Grade/add", function (data) {
+    var ajax = new $ax(Feng.ctxPath + "/grade/add", function (data) {
         Feng.success("添加成功!");
         window.parent.Grade.table.refresh();
         GradeInfoDlg.close();

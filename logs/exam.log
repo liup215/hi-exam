@@ -2823,3 +2823,425 @@ java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integ
 2017-07-24 17:33:00.937  INFO 7388 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2017-07-24 17:33:00.962  INFO 7388 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
 2017-07-24 17:33:02.245  INFO 7388 --- [http-nio-8090-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-07-29 12:12:29.589  INFO 7332 --- [main] com.hidear.exam.ExamApplication          : Starting ExamApplication on PC-20160708WMDP with PID 7332 (D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\target\classes started by Administrator in D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam)
+2017-07-29 12:12:29.599  INFO 7332 --- [main] com.hidear.exam.ExamApplication          : The following profiles are active: dev
+2017-07-29 12:12:29.655  INFO 7332 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:12:29 CST 2017]; root of context hierarchy
+2017-07-29 12:12:30.335  INFO 7332 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'characterEncodingFilter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/hidear/exam/config/web/WebConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]]
+2017-07-29 12:12:30.686  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$550cf234] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-29 12:12:31.100  INFO 7332 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2017-07-29 12:12:31.112  INFO 7332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-29 12:12:31.113  INFO 7332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-29 12:12:31.234  INFO 7332 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-29 12:12:31.234  INFO 7332 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1581 ms
+2017-07-29 12:12:31.390  INFO 7332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-29 12:12:31.390  INFO 7332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-29 12:12:31.390  INFO 7332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-29 12:12:31.390  INFO 7332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-29 12:12:31.390  INFO 7332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-07-29 12:12:31.391  INFO 7332 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-29 12:12:32.022  INFO 7332 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:12:32.036  INFO 7332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-29 12:12:32.091  INFO 7332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-29 12:12:32.092  INFO 7332 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-07-29 12:12:32.094  INFO 7332 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-07-29 12:12:32.221  INFO 7332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-29 12:12:32.349  INFO 7332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
+2017-07-29 12:12:32.667  INFO 7332 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-29 12:12:32.798  INFO 7332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:12:33.409  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:12:29 CST 2017]; root of context hierarchy
+2017-07-29 12:12:33.464  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.index()
+2017-07-29 12:12:33.464  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.home()
+2017-07-29 12:12:33.465  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.loginPage()
+2017-07-29 12:12:33.465  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.login(org.springframework.ui.Model)
+2017-07-29 12:12:33.465  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.admin(org.springframework.ui.Model)
+2017-07-29 12:12:33.467  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/add],methods=[GET]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.add()
+2017-07-29 12:12:33.467  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.GradeController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:12:33.467  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.gradePage()
+2017-07-29 12:12:33.470  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.index()
+2017-07-29 12:12:33.470  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/add]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.add(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:12:33.470  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/remove]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.remove(java.lang.Integer)
+2017-07-29 12:12:33.471  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.MenuController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:12:33.471  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_add]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuAdd()
+2017-07-29 12:12:33.471  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuEdit(java.lang.Integer,org.springframework.ui.Model)
+2017-07-29 12:12:33.471  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/edit]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.edit(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:12:33.471  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.hidear.exam.common.node.ZTreeNode> com.hidear.exam.modular.system.controller.MenuController.selectMenuTreeList()
+2017-07-29 12:12:33.473  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-29 12:12:33.473  INFO 7332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-29 12:12:33.492  INFO 7332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:12:33.493  INFO 7332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:12:33.524  INFO 7332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:12:33.749  INFO 7332 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-29 12:12:33.793  INFO 7332 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2017-07-29 12:12:33.797  INFO 7332 --- [main] com.hidear.exam.ExamApplication          : Started ExamApplication in 4.527 seconds (JVM running for 4.848)
+2017-07-29 12:12:33.797  INFO 7332 --- [main] com.hidear.exam.ExamApplication          : com.hidear.exam.ExamApplication Start success!!!
+2017-07-29 12:13:11.986  INFO 7332 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-29 12:13:11.986  INFO 7332 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-29 12:13:12.007  INFO 7332 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-07-29 12:13:12.092  WARN 7332 --- [http-nio-8090-exec-2] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/WEB-INF/view/index.html] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:13:26.324  WARN 7332 --- [http-nio-8090-exec-4] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/WEB-INF/view/index.html] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:13:31.325  INFO 7332 --- [http-nio-8090-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-07-29 12:13:31.472  WARN 7332 --- [http-nio-8090-exec-5] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/WEB-INF/view/admin.html] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:14:34.218  WARN 7332 --- [http-nio-8090-exec-7] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/WEB-INF/view/login.html] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:17:26.840  WARN 7332 --- [http-nio-8090-exec-9] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/WEB-INF/view/login.html] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:17:28.039  WARN 7332 --- [http-nio-8090-exec-10] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/WEB-INF/view/login.html] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:33:03.879  INFO 8612 --- [main] com.hidear.exam.ExamApplication          : Starting ExamApplication on PC-20160708WMDP with PID 8612 (D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\target\classes started by Administrator in D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam)
+2017-07-29 12:33:03.882  INFO 8612 --- [main] com.hidear.exam.ExamApplication          : The following profiles are active: dev
+2017-07-29 12:33:03.927  INFO 8612 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:33:03 CST 2017]; root of context hierarchy
+2017-07-29 12:33:04.676  INFO 8612 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'characterEncodingFilter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/hidear/exam/config/web/WebConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]]
+2017-07-29 12:33:05.059  INFO 8612 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a21bb17a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-29 12:33:05.472  INFO 8612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2017-07-29 12:33:05.483  INFO 8612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-29 12:33:05.484  INFO 8612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-29 12:33:05.596  INFO 8612 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-29 12:33:05.597  INFO 8612 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1672 ms
+2017-07-29 12:33:05.739  INFO 8612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-29 12:33:05.739  INFO 8612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-29 12:33:05.740  INFO 8612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-29 12:33:05.740  INFO 8612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-29 12:33:05.740  INFO 8612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-07-29 12:33:05.740  INFO 8612 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-29 12:33:06.230  INFO 8612 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:33:06.243  INFO 8612 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-29 12:33:06.298  INFO 8612 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-29 12:33:06.299  INFO 8612 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-07-29 12:33:06.300  INFO 8612 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-07-29 12:33:06.393  INFO 8612 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-29 12:33:06.531  INFO 8612 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
+2017-07-29 12:33:06.850  INFO 8612 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-29 12:33:06.963  INFO 8612 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:33:07.576  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:33:03 CST 2017]; root of context hierarchy
+2017-07-29 12:33:07.633  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.index()
+2017-07-29 12:33:07.634  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.home()
+2017-07-29 12:33:07.634  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.loginPage()
+2017-07-29 12:33:07.634  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.login(org.springframework.ui.Model)
+2017-07-29 12:33:07.635  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.admin(org.springframework.ui.Model)
+2017-07-29 12:33:07.636  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/add],methods=[GET]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.add()
+2017-07-29 12:33:07.637  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.GradeController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:33:07.637  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.gradePage()
+2017-07-29 12:33:07.641  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.index()
+2017-07-29 12:33:07.641  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/add]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.add(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:33:07.641  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/remove]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.remove(java.lang.Integer)
+2017-07-29 12:33:07.641  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.MenuController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:33:07.642  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.hidear.exam.common.node.ZTreeNode> com.hidear.exam.modular.system.controller.MenuController.selectMenuTreeList()
+2017-07-29 12:33:07.642  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_add]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuAdd()
+2017-07-29 12:33:07.642  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuEdit(java.lang.Integer,org.springframework.ui.Model)
+2017-07-29 12:33:07.642  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/edit]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.edit(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:33:07.643  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-29 12:33:07.644  INFO 8612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-29 12:33:07.665  INFO 8612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:33:07.665  INFO 8612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:33:07.696  INFO 8612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:33:07.914  INFO 8612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-29 12:33:07.943 ERROR 8612 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8090"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_101]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_101]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_101]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at com.hidear.exam.ExamApplication.main(ExamApplication.java:20) [classes/:na]
+
+2017-07-29 12:33:07.944 ERROR 8612 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8090]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at com.hidear.exam.ExamApplication.main(ExamApplication.java:20) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_101]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_101]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_101]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 14 common frames omitted
+
+2017-07-29 12:33:07.950  INFO 8612 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2017-07-29 12:33:07.982  INFO 8612 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-07-29 12:33:07.984 ERROR 8612 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2017-07-29 12:33:07.985  INFO 8612 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:33:03 CST 2017]; root of context hierarchy
+2017-07-29 12:33:07.987  INFO 8612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-29 12:33:07.987  INFO 8612 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:33:28.041  INFO 10580 --- [main] com.hidear.exam.ExamApplication          : Starting ExamApplication on PC-20160708WMDP with PID 10580 (D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\target\classes started by Administrator in D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam)
+2017-07-29 12:33:28.043  INFO 10580 --- [main] com.hidear.exam.ExamApplication          : The following profiles are active: dev
+2017-07-29 12:33:28.090  INFO 10580 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:33:28 CST 2017]; root of context hierarchy
+2017-07-29 12:33:28.819  INFO 10580 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'characterEncodingFilter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/hidear/exam/config/web/WebConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]]
+2017-07-29 12:33:29.144  INFO 10580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$601d7c6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-29 12:33:29.514  INFO 10580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2017-07-29 12:33:29.525  INFO 10580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-29 12:33:29.526  INFO 10580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-29 12:33:29.635  INFO 10580 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-29 12:33:29.636  INFO 10580 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1549 ms
+2017-07-29 12:33:29.779  INFO 10580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-29 12:33:29.780  INFO 10580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-29 12:33:29.780  INFO 10580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-29 12:33:29.780  INFO 10580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-29 12:33:29.780  INFO 10580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-07-29 12:33:29.781  INFO 10580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-29 12:33:30.268  INFO 10580 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:33:30.283  INFO 10580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-29 12:33:30.338  INFO 10580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-29 12:33:30.339  INFO 10580 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-07-29 12:33:30.340  INFO 10580 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-07-29 12:33:30.467  INFO 10580 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-29 12:33:30.602  INFO 10580 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
+2017-07-29 12:33:30.924  INFO 10580 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-29 12:33:31.049  INFO 10580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:33:31.661  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f83df68: startup date [Sat Jul 29 12:33:28 CST 2017]; root of context hierarchy
+2017-07-29 12:33:31.717  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.index()
+2017-07-29 12:33:31.717  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.home()
+2017-07-29 12:33:31.718  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.loginPage()
+2017-07-29 12:33:31.718  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.login(org.springframework.ui.Model)
+2017-07-29 12:33:31.718  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.admin(org.springframework.ui.Model)
+2017-07-29 12:33:31.719  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/add],methods=[GET]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.add()
+2017-07-29 12:33:31.720  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.GradeController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:33:31.720  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.gradePage()
+2017-07-29 12:33:31.722  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.index()
+2017-07-29 12:33:31.723  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/add]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.add(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:33:31.723  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/remove]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.remove(java.lang.Integer)
+2017-07-29 12:33:31.723  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.MenuController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:33:31.724  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.hidear.exam.common.node.ZTreeNode> com.hidear.exam.modular.system.controller.MenuController.selectMenuTreeList()
+2017-07-29 12:33:31.724  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_add]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuAdd()
+2017-07-29 12:33:31.724  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuEdit(java.lang.Integer,org.springframework.ui.Model)
+2017-07-29 12:33:31.724  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/edit]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.edit(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:33:31.726  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-29 12:33:31.726  INFO 10580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-29 12:33:31.746  INFO 10580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:33:31.746  INFO 10580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:33:31.773  INFO 10580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:33:32.001  INFO 10580 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-29 12:33:32.047  INFO 10580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2017-07-29 12:33:32.051  INFO 10580 --- [main] com.hidear.exam.ExamApplication          : Started ExamApplication in 4.32 seconds (JVM running for 4.626)
+2017-07-29 12:33:32.051  INFO 10580 --- [main] com.hidear.exam.ExamApplication          : com.hidear.exam.ExamApplication Start success!!!
+2017-07-29 12:33:41.090  INFO 10580 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-29 12:33:41.090  INFO 10580 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-29 12:33:41.108  INFO 10580 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2017-07-29 12:33:41.155  INFO 10580 --- [http-nio-8090-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-07-29 12:41:12.713  WARN 10580 --- [http-nio-8090-exec-5] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/grade/grade_add] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:46:11.614  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : Starting ExamApplication on PC-20160708WMDP with PID 11176 (D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\target\classes started by Administrator in D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam)
+2017-07-29 12:46:11.614  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : The following profiles are active: dev
+2017-07-29 12:46:11.675  INFO 11176 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2508c592: startup date [Sat Jul 29 12:46:11 CST 2017]; root of context hierarchy
+2017-07-29 12:46:12.689  INFO 11176 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'characterEncodingFilter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/hidear/exam/config/web/WebConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]]
+2017-07-29 12:46:13.100  INFO 11176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b325623] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-29 12:46:13.551  INFO 11176 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2017-07-29 12:46:13.564  INFO 11176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-29 12:46:13.565  INFO 11176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-29 12:46:13.679  INFO 11176 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-29 12:46:13.679  INFO 11176 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2007 ms
+2017-07-29 12:46:13.833  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-29 12:46:13.833  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-29 12:46:13.833  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-29 12:46:13.834  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-29 12:46:13.834  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-07-29 12:46:13.834  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-29 12:46:14.336  INFO 11176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:46:14.351  INFO 11176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-29 12:46:14.442  INFO 11176 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-29 12:46:14.443  INFO 11176 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-07-29 12:46:14.496  INFO 11176 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-07-29 12:46:14.529  INFO 11176 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-29 12:46:14.667  INFO 11176 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
+2017-07-29 12:46:15.006  INFO 11176 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-29 12:46:15.133  INFO 11176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:46:15.758  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2508c592: startup date [Sat Jul 29 12:46:11 CST 2017]; root of context hierarchy
+2017-07-29 12:46:15.820  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.index()
+2017-07-29 12:46:15.821  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.home()
+2017-07-29 12:46:15.822  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.loginPage()
+2017-07-29 12:46:15.822  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.login(org.springframework.ui.Model)
+2017-07-29 12:46:15.822  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.admin(org.springframework.ui.Model)
+2017-07-29 12:46:15.824  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/add],methods=[GET]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.add()
+2017-07-29 12:46:15.824  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.GradeController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:46:15.824  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.gradePage()
+2017-07-29 12:46:15.829  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.index()
+2017-07-29 12:46:15.830  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/add]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.add(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:46:15.830  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/remove]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.remove(java.lang.Integer)
+2017-07-29 12:46:15.831  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.MenuController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:46:15.831  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.hidear.exam.common.node.ZTreeNode> com.hidear.exam.modular.system.controller.MenuController.selectMenuTreeList()
+2017-07-29 12:46:15.832  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_add]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuAdd()
+2017-07-29 12:46:15.832  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuEdit(java.lang.Integer,org.springframework.ui.Model)
+2017-07-29 12:46:15.832  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/edit]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.edit(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:46:15.834  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-29 12:46:15.834  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-29 12:46:15.857  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:46:15.857  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:46:15.891  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:46:16.189  INFO 11176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-29 12:46:16.248  INFO 11176 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-29 12:46:16.298  INFO 11176 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2017-07-29 12:46:16.303  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : Started ExamApplication in 5.003 seconds (JVM running for 5.387)
+2017-07-29 12:46:16.303  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : com.hidear.exam.ExamApplication Start success!!!
+2017-07-29 12:46:23.771  INFO 11176 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-29 12:46:23.771  INFO 11176 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-29 12:46:23.791  INFO 11176 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-07-29 12:46:23.834  INFO 11176 --- [http-nio-8090-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-07-29 12:46:28.903  WARN 11176 --- [http-nio-8090-exec-2] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/grade/grade_add] in DispatcherServlet with name 'dispatcherServlet'
+2017-07-29 12:46:43.886  INFO 11176 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2508c592: startup date [Sat Jul 29 12:46:11 CST 2017]; root of context hierarchy
+2017-07-29 12:46:43.887  INFO 11176 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-29 12:46:43.889  INFO 11176 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:46:44.225  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : Starting ExamApplication on PC-20160708WMDP with PID 11176 (D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\target\classes started by Administrator in D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam)
+2017-07-29 12:46:44.225  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : The following profiles are active: dev
+2017-07-29 12:46:44.227  INFO 11176 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e4ac211: startup date [Sat Jul 29 12:46:44 CST 2017]; root of context hierarchy
+2017-07-29 12:46:44.578  INFO 11176 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'characterEncodingFilter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/hidear/exam/config/web/WebConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]]
+2017-07-29 12:46:44.614  INFO 11176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b325623] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-29 12:46:44.690  INFO 11176 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2017-07-29 12:46:44.691  INFO 11176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-29 12:46:44.692  INFO 11176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-29 12:46:44.706  INFO 11176 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-29 12:46:44.707  INFO 11176 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 480 ms
+2017-07-29 12:46:44.755  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-29 12:46:44.756  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-29 12:46:44.756  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-29 12:46:44.756  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-29 12:46:44.756  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-07-29 12:46:44.756  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-29 12:46:44.910  INFO 11176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:46:44.910  INFO 11176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-29 12:46:44.959  INFO 11176 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
+2017-07-29 12:46:44.996  INFO 11176 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-29 12:46:45.072  INFO 11176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:46:45.263  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e4ac211: startup date [Sat Jul 29 12:46:44 CST 2017]; root of context hierarchy
+2017-07-29 12:46:45.268  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.index()
+2017-07-29 12:46:45.269  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.home()
+2017-07-29 12:46:45.269  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.loginPage()
+2017-07-29 12:46:45.269  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.login(org.springframework.ui.Model)
+2017-07-29 12:46:45.269  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.admin(org.springframework.ui.Model)
+2017-07-29 12:46:45.271  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/grade_add],methods=[GET]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.add()
+2017-07-29 12:46:45.271  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.GradeController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:46:45.271  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.gradePage()
+2017-07-29 12:46:45.272  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.index()
+2017-07-29 12:46:45.273  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/add]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.add(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:46:45.273  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/remove]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.remove(java.lang.Integer)
+2017-07-29 12:46:45.273  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.MenuController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:46:45.273  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.hidear.exam.common.node.ZTreeNode> com.hidear.exam.modular.system.controller.MenuController.selectMenuTreeList()
+2017-07-29 12:46:45.274  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_add]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuAdd()
+2017-07-29 12:46:45.274  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuEdit(java.lang.Integer,org.springframework.ui.Model)
+2017-07-29 12:46:45.274  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/edit]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.edit(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:46:45.275  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-29 12:46:45.275  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-29 12:46:45.280  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:46:45.280  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:46:45.288  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:46:45.402  INFO 11176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-29 12:46:45.434  INFO 11176 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-29 12:46:45.456  INFO 11176 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2017-07-29 12:46:45.460  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : Started ExamApplication in 1.285 seconds (JVM running for 34.545)
+2017-07-29 12:46:45.460  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : com.hidear.exam.ExamApplication Start success!!!
+2017-07-29 12:46:54.751  INFO 11176 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-29 12:46:54.751  INFO 11176 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-29 12:46:54.758  INFO 11176 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2017-07-29 12:46:55.236  INFO 11176 --- [http-nio-8090-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-07-29 12:49:24.254  INFO 11176 --- [Thread-11] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e4ac211: startup date [Sat Jul 29 12:46:44 CST 2017]; root of context hierarchy
+2017-07-29 12:49:24.255  INFO 11176 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-29 12:49:24.256  INFO 11176 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:49:24.596  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : Starting ExamApplication on PC-20160708WMDP with PID 11176 (D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\target\classes started by Administrator in D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam)
+2017-07-29 12:49:24.596  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : The following profiles are active: dev
+2017-07-29 12:49:24.600  INFO 11176 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5833361f: startup date [Sat Jul 29 12:49:24 CST 2017]; root of context hierarchy
+2017-07-29 12:49:24.935  INFO 11176 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'characterEncodingFilter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/hidear/exam/config/web/WebConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration; factoryMethodName=characterEncodingFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]]
+2017-07-29 12:49:24.969  INFO 11176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b325623] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-29 12:49:25.034  INFO 11176 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2017-07-29 12:49:25.035  INFO 11176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-29 12:49:25.035  INFO 11176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-29 12:49:25.053  INFO 11176 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-29 12:49:25.053  INFO 11176 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 453 ms
+2017-07-29 12:49:25.102  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-29 12:49:25.102  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-29 12:49:25.102  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-29 12:49:25.103  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-29 12:49:25.103  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-07-29 12:49:25.103  INFO 11176 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-29 12:49:25.206  INFO 11176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:49:25.206  INFO 11176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-29 12:49:25.252  INFO 11176 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
+2017-07-29 12:49:25.279  INFO 11176 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-29 12:49:25.346  INFO 11176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-29 12:49:25.530  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5833361f: startup date [Sat Jul 29 12:49:24 CST 2017]; root of context hierarchy
+2017-07-29 12:49:25.535  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.index()
+2017-07-29 12:49:25.536  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.home()
+2017-07-29 12:49:25.536  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.loginPage()
+2017-07-29 12:49:25.536  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.login(org.springframework.ui.Model)
+2017-07-29 12:49:25.536  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto public java.lang.String com.hidear.exam.modular.common.controller.HomeController.admin(org.springframework.ui.Model)
+2017-07-29 12:49:25.537  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/grade_add],methods=[GET]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.add()
+2017-07-29 12:49:25.537  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.GradeController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:49:25.537  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade]}" onto public java.lang.String com.hidear.exam.modular.system.controller.GradeController.gradePage()
+2017-07-29 12:49:25.537  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/grade/grade_add],methods=[POST]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.GradeController.addGrade()
+2017-07-29 12:49:25.538  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.index()
+2017-07-29 12:49:25.538  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/add]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.add(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:49:25.538  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/remove]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.remove(java.lang.Integer)
+2017-07-29 12:49:25.538  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/list]}" onto public java.lang.Object com.hidear.exam.modular.system.controller.MenuController.list(java.lang.String,java.lang.Integer)
+2017-07-29 12:49:25.539  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.hidear.exam.common.node.ZTreeNode> com.hidear.exam.modular.system.controller.MenuController.selectMenuTreeList()
+2017-07-29 12:49:25.539  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_add]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuAdd()
+2017-07-29 12:49:25.539  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.hidear.exam.modular.system.controller.MenuController.menuEdit(java.lang.Integer,org.springframework.ui.Model)
+2017-07-29 12:49:25.539  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/menu/edit]}" onto public com.hidear.exam.common.constant.tip.Tip com.hidear.exam.modular.system.controller.MenuController.edit(com.hidear.exam.modular.system.model.Menu,org.springframework.validation.BindingResult)
+2017-07-29 12:49:25.540  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-29 12:49:25.540  INFO 11176 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-29 12:49:25.545  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:49:25.545  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:49:25.552  INFO 11176 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-29 12:49:25.663  INFO 11176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-29 12:49:25.689  INFO 11176 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-29 12:49:25.701  INFO 11176 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2017-07-29 12:49:25.703  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : Started ExamApplication in 1.145 seconds (JVM running for 194.784)
+2017-07-29 12:49:25.703  INFO 11176 --- [restartedMain] com.hidear.exam.ExamApplication          : com.hidear.exam.ExamApplication Start success!!!

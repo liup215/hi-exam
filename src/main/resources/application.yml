@@ -42,6 +42,9 @@ spring:
           auto: update
         dialect: com.hidear.exam.core.db.MySQL5UTF8Dialect
         show_sql: false
+  devtools:
+    restart:
+      exclude= static/**,public/**
 
 ###################  mybatis-plus配置  ###################
 #mybatis-plus:
