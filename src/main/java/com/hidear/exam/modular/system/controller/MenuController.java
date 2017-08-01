@@ -1,8 +1,8 @@
 package com.hidear.exam.modular.system.controller;
 
 import com.hidear.exam.common.constant.factory.ConstantFactory;
-import com.hidear.exam.common.constant.state.MenuOpenStatus;
-import com.hidear.exam.common.constant.state.MenuStatus;
+import com.hidear.exam.modular.system.status.MenuOpenStatus;
+import com.hidear.exam.modular.system.status.MenuStatus;
 import com.hidear.exam.common.constant.tip.SuccessTip;
 import com.hidear.exam.common.constant.tip.Tip;
 import com.hidear.exam.common.exception.BizExceptionEnum;

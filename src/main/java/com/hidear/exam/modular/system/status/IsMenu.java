@@ -1,20 +1,17 @@
-package com.hidear.exam.common.constant.state;
+package com.hidear.exam.modular.system.status;
 
 /**
- * 菜单的状态
- *
- * @author fengshuonan
- * @Date 2017年1月22日 下午12:14:59
+ * Created by acer on 2017/7/22.
  */
-public enum MenuStatus {
+public enum IsMenu {
 
-    ENABLE(1, "启用"),
-    DISABLE(0, "禁用");
+    YES(1, "是"),
+    NO(0, "不是");//不是菜单的是按钮
 
     int code;
     String message;
 
-    MenuStatus(int code, String message) {
+    IsMenu(int code, String message) {
         this.code = code;
         this.message = message;
     }
@@ -39,7 +36,7 @@ public enum MenuStatus {
         if (status == null) {
             return "";
         } else {
-            for (MenuStatus s : MenuStatus.values()) {
+            for (IsMenu s : IsMenu.values()) {
                 if (s.getCode() == status) {
                     return s.getMessage();
                 }
@@ -47,4 +44,5 @@ public enum MenuStatus {
             return "";
         }
     }
+
 }

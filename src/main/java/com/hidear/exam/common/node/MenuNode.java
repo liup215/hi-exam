@@ -1,6 +1,6 @@
 package com.hidear.exam.common.node;
 
-import com.hidear.exam.common.constant.state.IsMenu;
+import com.hidear.exam.modular.system.status.IsMenu;
 
 import java.util.ArrayList;
 import java.util.Collections;

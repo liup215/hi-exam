@@ -1,6 +1,6 @@
 package com.hidear.exam.modular.base.service.serviceImpl;
 
-import com.hidear.exam.common.constant.state.GradeStatus;
+import com.hidear.exam.modular.base.status.GradeStatus;
 import com.hidear.exam.modular.base.dao.GradeRepository;
 import com.hidear.exam.modular.base.model.Grade;
 import com.hidear.exam.modular.base.service.IGradeService;

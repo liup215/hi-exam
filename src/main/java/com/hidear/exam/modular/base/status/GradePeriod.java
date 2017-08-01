@@ -1,4 +1,4 @@
-package com.hidear.exam.common.constant.state;
+package com.hidear.exam.modular.base.status;
 
 /**
  * Created by Administrator on 2017/7/24.

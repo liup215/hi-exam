@@ -2,7 +2,7 @@ package com.hidear.exam.modular.system.wrapper;
 
 import com.hidear.exam.common.BaseControllerWrapper;
 import com.hidear.exam.common.constant.factory.ConstantFactory;
-import com.hidear.exam.common.constant.state.IsMenu;
+import com.hidear.exam.modular.system.status.IsMenu;
 
 import java.util.List;
 import java.util.Map;

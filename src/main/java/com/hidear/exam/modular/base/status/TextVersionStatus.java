@@ -1,16 +1,15 @@
-package com.hidear.exam.common.constant.state;
+package com.hidear.exam.modular.base.status;
 
 /**
- * Created by Administrator on 2017/7/24.
+ * Created by acer on 2017/8/1.
  */
-public enum GradeStatus {
-
+public enum TextVersionStatus {
     OK(1,"启用"),DELETED(0,"禁用");
 
     private Integer code;
     private String status;
 
-    GradeStatus(Integer code, String status) {
+    TextVersionStatus(Integer code, String status) {
 
         this.code = code;
         this.status = status;
@@ -36,7 +35,7 @@ public enum GradeStatus {
         if(code==null){
             return "";
         }else {
-            for (GradeStatus status:GradeStatus.values()){
+            for (TextVersionStatus status:TextVersionStatus.values()){
                 if(code == status.getCode()){
                     return status.getStatus();
                 }

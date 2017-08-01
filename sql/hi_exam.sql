@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : localhost
-Source Server Version : 50716
+Source Server Version : 50718
 Source Host           : localhost:3306
 Source Database       : hi_exam
 
 Target Server Type    : MYSQL
-Target Server Version : 50716
+Target Server Version : 50718
 File Encoding         : 65001
 
-Date: 2017-08-01 18:13:59
+Date: 2017-08-01 23:50:53
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -62,7 +62,7 @@ CREATE TABLE `tm_menu` (
   `tips` varchar(255) DEFAULT NULL,
   `url` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of tm_menu
@@ -77,9 +77,10 @@ INSERT INTO `tm_menu` VALUES ('7', 'teacher', '', '1', '1', '1', '教师管理',
 INSERT INTO `tm_menu` VALUES ('8', 'system', '', '1', '1', '1', '系统管理', '1', '0', '[0],', '1', null, '/system');
 INSERT INTO `tm_menu` VALUES ('15', 'grade', '', '1', '1', '2', '年级管理', '1', 'info', 'null[info],', '1', null, '/grade');
 INSERT INTO `tm_menu` VALUES ('16', 'subject', '', '1', '1', '2', '学科管理', '1', 'info', 'null[info],', '1', null, '/subject');
-INSERT INTO `tm_menu` VALUES ('17', 'text-version', '', '1', '1', '2', '教材版本', '1', 'info', 'null[info],', '1', null, '/text_version');
+INSERT INTO `tm_menu` VALUES ('17', 'text-version', '', '1', '1', '2', '教材版本', '1', 'info', 'null[info],', '1', null, '/textVersion');
 INSERT INTO `tm_menu` VALUES ('18', 'info', '', '1', '1', '1', '信息管理', '1', '0', null, '1', null, '/message');
 INSERT INTO `tm_menu` VALUES ('19', 'website', '', '1', '1', '2', '站点设置', '1', 'system', '[0],[system],', '1', null, '/website');
+INSERT INTO `tm_menu` VALUES ('20', 'questiondb', '', '1', '1', '2', '题库管理', '1', 'qdb', '[0],[qdb],', '1', null, '/questionDb');
 
 -- ----------------------------
 -- Table structure for tm_menu_role_relation
@@ -137,3 +138,46 @@ INSERT INTO `tm_subject` VALUES ('6', '生物', '1');
 INSERT INTO `tm_subject` VALUES ('7', '政治', '1');
 INSERT INTO `tm_subject` VALUES ('8', '历史', '1');
 INSERT INTO `tm_subject` VALUES ('10', '地理', '1');
+
+-- ----------------------------
+-- Table structure for tm_text_version
+-- ----------------------------
+DROP TABLE IF EXISTS `tm_text_version`;
+CREATE TABLE `tm_text_version` (
+  `id` int(65) NOT NULL AUTO_INCREMENT,
+  `name` varchar(65) NOT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of tm_text_version
+-- ----------------------------
+INSERT INTO `tm_text_version` VALUES ('1', '人教版', '1');
+INSERT INTO `tm_text_version` VALUES ('2', '新人教版', '1');
+INSERT INTO `tm_text_version` VALUES ('3', '苏教版', '1');
+INSERT INTO `tm_text_version` VALUES ('4', '浙科版', '1');
+INSERT INTO `tm_text_version` VALUES ('5', '岳麓版', '1');
+INSERT INTO `tm_text_version` VALUES ('6', '京教版', '1');
+INSERT INTO `tm_text_version` VALUES ('7', '沪教版', '1');
+
+-- ----------------------------
+-- Function structure for tm_strip_tags
+-- ----------------------------
+DROP FUNCTION IF EXISTS `tm_strip_tags`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` FUNCTION `tm_strip_tags`($str text) RETURNS text CHARSET utf8
+BEGIN
+  DECLARE $start, $end INT DEFAULT 1;
+  IF ($str IS NULL) THEN RETURN NULL; END IF;
+  LOOP
+    SET $start = LOCATE("<", $str, $start);
+    IF (!$start) THEN RETURN $str; END IF;
+    SET $end = LOCATE(">", $str, $start);
+    IF (!$end) THEN SET $end = $start; END IF;
+    SET $str = INSERT($str, $start, $end - $start + 1, "");
+  END LOOP;
+END
+;;
+DELIMITER ;
+SET FOREIGN_KEY_CHECKS=1;

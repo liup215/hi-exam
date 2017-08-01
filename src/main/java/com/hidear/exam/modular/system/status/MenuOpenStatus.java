@@ -1,4 +1,4 @@
-package com.hidear.exam.common.constant.state;
+package com.hidear.exam.modular.system.status;
 
 /**
  * 菜单是否打开的状态

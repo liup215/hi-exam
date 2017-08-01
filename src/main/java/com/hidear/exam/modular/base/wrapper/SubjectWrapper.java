@@ -1,7 +1,7 @@
 package com.hidear.exam.modular.base.wrapper;
 
 import com.hidear.exam.common.BaseControllerWrapper;
-import com.hidear.exam.common.constant.state.SubjectStatus;
+import com.hidear.exam.modular.base.status.SubjectStatus;
 
 import java.util.Map;
 

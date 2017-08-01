@@ -1,9 +1,8 @@
 package com.hidear.exam.modular.base.wrapper;
 
 import com.hidear.exam.common.BaseControllerWrapper;
-import com.hidear.exam.common.constant.state.GradePeriod;
-import com.hidear.exam.common.constant.state.GradeStatus;
-import io.swagger.models.auth.In;
+import com.hidear.exam.modular.base.status.GradePeriod;
+import com.hidear.exam.modular.base.status.GradeStatus;
 
 import java.util.Map;
 
