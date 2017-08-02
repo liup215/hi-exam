@@ -14,7 +14,16 @@ var QuestionDb = {
 QuestionDb.initColumn = function () {
     return [
         {field: 'selectItem', radio: true},
-        {title: 'id', field: 'id', visible: false, align: 'center', valign: 'middle'}
+        {title: 'id', field: 'id', visible: true, align: 'center', valign: 'middle'},
+        {title: 'logo', field: 'logo', align: 'center', valign: 'middle', sortable: true},
+        {title: '题库名称', field: 'name', align: 'center', valign: 'middle', sortable: true},
+        {title: '学段', field: 'gradeLevel', visible: true, align: 'center', valign: 'middle'},
+        {title: '学科', field: 'subject', align: 'center', valign: 'middle', sortable: true},
+        {title: '创建人', field: 'poster', align: 'center', valign: 'middle', sortable: true},
+        {title: '创建时间', field: 'cDate', align: 'center', valign: 'middle', sortable: true},
+        {title: '上次更新人', field: 'lastModifyor', visible: true, align: 'center', valign: 'middle'},
+        {title: '上次跟新时间', field: 'lastModifyDate', align: 'center', valign: 'middle', sortable: true},
+        {title: '状态', field: 'status', align: 'center', valign: 'middle', sortable: true}
     ];
 };
 

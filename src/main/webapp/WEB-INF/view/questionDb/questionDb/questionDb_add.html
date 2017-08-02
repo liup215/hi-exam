@@ -7,11 +7,26 @@
 
             <div class="row">
                 <div class="col-sm-6 b-r">
-
+                    <#input id="name" name="name" underline="true" />
+                    <#input id="logo" name="logo" underline="true" />
+                    <#select id="status" name="状态">
+                        <option value="1">启用</option>
+                        <option value="0">禁用</option>
+                    </#select>
                 </div>
 
                 <div class="col-sm-6">
+                    <#select id="gradeLevel" name="学段">
+                        @for(gradeLevel in gradeLevels){
+                        <option value="${gradeLevel.code}">${gradeLevel.name}</option>
+                        @}
+                    </#select>
 
+                    <#select id="subject" name="学段">
+                        @for(subject in subjects){
+                        <option value="${subject.id}">${subject.name}</option>
+                        @}
+                    </#select>
                 </div>
             </div>
 
