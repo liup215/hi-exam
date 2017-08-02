@@ -44,7 +44,7 @@ QuestionDbInfoDlg.close = function() {
  * 收集数据
  */
 QuestionDbInfoDlg.collectData = function() {
-    this.set('id');
+    this.set('id').set('logo').set('name').set('status').set('gradeLevel').set('subject');
 }
 
 /**

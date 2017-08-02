@@ -1,7 +1,7 @@
 package com.hidear.exam.modular.base.wrapper;
 
 import com.hidear.exam.common.BaseControllerWrapper;
-import com.hidear.exam.modular.base.status.GradePeriod;
+import com.hidear.exam.modular.base.status.GradeLevel;
 import com.hidear.exam.modular.base.status.GradeStatus;
 
 import java.util.Map;
@@ -17,7 +17,7 @@ public class GradeWrapper extends BaseControllerWrapper {
 
     @Override
     protected void warpTheMap(Map<String, Object> map) {
-        map.put("level", GradePeriod.valueOf((Integer)map.get("level")));
+        map.put("level", GradeLevel.valueOf((Integer)map.get("level")));
         map.put("status", GradeStatus.valueOf((Integer) map.get("status")));
     }
 }

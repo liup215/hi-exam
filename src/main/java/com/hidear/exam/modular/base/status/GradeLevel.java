@@ -4,7 +4,7 @@ package com.hidear.exam.modular.base.status;
  * Created by Administrator on 2017/7/24.
  * 年级
  */
-public enum GradePeriod {
+public enum GradeLevel {
 
     Primary(1,"小学"),
     Junior(2,"初中"),
@@ -14,10 +14,10 @@ public enum GradePeriod {
     private Integer code;
     private String name;
 
-    GradePeriod() {
+    GradeLevel() {
     }
 
-    GradePeriod(Integer code, String name) {
+    GradeLevel(Integer code, String name) {
         this.code = code;
         this.name = name;
     }
@@ -42,7 +42,7 @@ public enum GradePeriod {
         if(code == null){
             return "";
         }else{
-            for(GradePeriod period:GradePeriod.values()){
+            for(GradeLevel period: GradeLevel.values()){
                 if(code == period.getCode()){
                     return period.getName();
                 }
