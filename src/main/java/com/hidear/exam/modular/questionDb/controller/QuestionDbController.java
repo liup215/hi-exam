@@ -12,6 +12,7 @@ import com.hidear.exam.modular.base.status.GradeLevel;
 import com.hidear.exam.modular.questionDb.dao.QuestionDBRepository;
 import com.hidear.exam.modular.questionDb.model.QuestionDB;
 import com.hidear.exam.modular.questionDb.wrapper.QuestionDBWrapper;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -150,6 +151,9 @@ public class QuestionDbController {
 
         questionDB.setLastModifyor("admin");
         questionDB.setLastModifyDate((new Date().getTime()));
+        questionDB.setcDate(questionDBRepository.findOne(questionDB.getId()).getcDate());
+        questionDB.setPoster(questionDBRepository.findOne(questionDB.getId()).getPoster());
+        questionDBRepository.save(questionDB);
         return new SuccessTip();
     }
 
