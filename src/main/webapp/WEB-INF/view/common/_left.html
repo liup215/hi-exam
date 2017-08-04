@@ -1,0 +1,59 @@
+<div class="layui-side layui-side-bg layui-larry-side" id="larry-side">
+    <div class="layui-side-scroll" id="larry-nav-side" lay-filter="side">
+        <div class="user-photo">
+            <a class="img" title="我的头像" >
+                <img src="${ctxPath}/static/images/user.jpg" class="userimg1"></a>
+            <p>你好！admin, 欢迎登录</p>
+        </div>
+        <!-- 左侧菜单 -->
+        <ul class="layui-nav layui-nav-tree">
+            @for(title in titles){
+            @if(tool.isEmpty(title.children)){
+            <li class="layui-nav-item layui-nav-itemd">
+                <a href="#" data-url="${ctxPath}${title.url}">
+                    <i class="iconfont icon-home1 ${title.icon}" data-icon='icon-home1'></i>
+                    <span class="nav-label">${title.name}</span>
+                </a>
+            </li>
+            @}else{
+            <li class="layui-nav-item layui-nav-itemd">
+                <a href="#">
+                    <i class="iconfont icon-jiaoseguanli"></i>
+                    <span>${title.name}</span>
+                    <span class="layui-nav-more"></span>
+                </a>
+                <dl class="layui-nav-child">
+                    @for(subTitle in title.children){
+                    @if(tool.isEmpty(subTitle.children)){
+                    <dd>
+                        <a href="#" data-url="${ctxPath}${subTitle.url}">
+                            <span>
+                                ${subTitle.name}
+                            </span>
+                        </a>
+                    </dd>
+                    @}else{
+                    <dd>
+                        <a href="#">${subTitle.name} <span class="layui-nav-more"></span></a>
+                        <dl class="nav nav-third-level">
+                            @for(thirdTitle in subTitle.children){
+                            <dd>
+                                <a href="#" data-url="${ctxPath}${thirdTitle.url}">
+                                    <span>
+                                        ${thirdTitle.name}
+                                    </span>
+                                </a>
+                            </dd>
+                            @}
+                        </dl>
+                    </dd>
+                    @}
+                    @}
+                </dl>
+            </li>
+            @}
+            @}
+
+        </ul>
+    </div>
+</div>

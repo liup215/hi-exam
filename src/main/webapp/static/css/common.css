@@ -1,0 +1,80 @@
+
+html, body {
+    background: #f1f2f7 none repeat scroll 0 0;
+    font-size: 14px;
+    height: 100%;
+    padding-right: 3px;
+}
+.larry-grid {
+    background: #f1f2f7 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    width: calc(100% - 30px);
+}
+@keyframes LarryLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes LarryLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes LarryRight {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(-30px);
+    }
+    80% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes LarryRight {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(-30px);
+    }
+    80% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
