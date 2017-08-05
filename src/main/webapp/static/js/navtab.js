@@ -116,12 +116,12 @@ layui.define(['element'], function(exports){
 			if(_this.config.closed) {
 				//监听关闭事件
 				ELEM.titleBox.find('li').children('i.layui-tab-close[data-id=' + globalTabIdIndex + ']').on('click', function() {
-					alert(globalTabIdIndex);
-					element.tabDelete(ELEM.tabFilter, $(this).parent('li').index()).init();
+					var layId = $(this).attr("data-id");
+					element.tabDelete(ELEM.tabFilter, layId).init();
 				});
 			};
 			// 切换到当前打开的选项卡
-			element.tabChange(ELEM.tabFilter, ELEM.titleBox.find('li').length - 1);
+			element.tabChange(ELEM.tabFilter, globalTabIdIndex);
 		}else {
 			element.tabChange(ELEM.tabFilter, tabIndex);
 		}

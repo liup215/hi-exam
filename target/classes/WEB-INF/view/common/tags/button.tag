@@ -7,20 +7,6 @@
     icon : 按钮上的图标的样式
     name : 按钮名称
 @*/
-
-@var spaceCss = "";
-@var btnType = "";
-@if(isEmpty(space)){
-@   spaceCss = "";
-@}else{
-@   spaceCss = "button-margin";
-@}
-@if(isEmpty(btnCss)){
-@   btnType = "primary";
-@}else{
-@   btnType = btnCss;
-@}
-<button type="button" class="btn btn-${btnType} ${spaceCss}" onclick="${clickFun!}" id="${id!}">
-    <i class="fa ${icon}"></i>&nbsp;${name}
+<button type="button" class="layui-btn layui-btn-${btnType!}" lay-filter="${filter!}" onclick="${clickFun}" id=""${id!}>
+    <i class="layui-icon">${icon!}</i>&nbsp;${name}
 </button>
-

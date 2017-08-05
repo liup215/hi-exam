@@ -4,11 +4,8 @@
     name : 查询条件的名称
     id : 查询内容的input框id
 @*/
-<div class="input-group">
-    <div class="input-group-btn">
-        <button data-toggle="dropdown" class="btn btn-white dropdown-toggle"
-                type="button">${name}
-        </button>
-    </div>
-    <input type="text" class="form-control" id="${id}" placeholder="${placeholder!}" />
+
+<label class="layui-form-label">${name}</label>
+<div class="layui-input-block">
+    <input id="${id}" type="text" lay-verify="required" placeholder="${placdholder!}" autocomplete="off" class="layui-input">
 </div>

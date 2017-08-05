@@ -8,10 +8,9 @@
     clickFun : 点击事件的方法名
     style : 附加的css属性
 @*/
-<div class="form-group">
-    <label class="col-sm-3 control-label">${name}</label>
-    <div class="col-sm-9">
-        <input class="form-control" id="${id}" name="${id}"
+    <label class="layui-form-label">${name}</label>
+    <div class="layui-input-block">
+        <input class="layui-input" id="${id}" name="${id}"
                @if(isNotEmpty(value)){
                     value="${tool.dateType(value)}"
                @}
@@ -43,7 +42,6 @@
             </div>
         @}
     </div>
-</div>
 @if(isNotEmpty(underline) && underline == 'true'){
     <div class="hr-line-dashed"></div>
 @}

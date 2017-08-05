@@ -5,29 +5,35 @@
             <span>菜单管理</span>
         </header>
         <div class="larry-personal-body clearfix">
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <#NameCon id="menuName" name="菜单名称" />
-                    </div>
-                    <div class="col-sm-3">
-                        <#NameCon id="level" name="层级" />
-                    </div>
-                    <div class="col-sm-3">
-                        <#button name="搜索" icon="fa-search" clickFun="Menu.search()"/>
-                    </div>
-                </div>
-                <div class="hidden-xs" id="menuTableToolbar" role="group">
+            <form class="layui-form" layui-filter="menuSearch">
+                        <div class="row">
+                            <div class="layui-sm-3">
+                                <div id="menuTableToolbar" class="layui-form-item layui-btn-group">
+                                    <#button name="添加" icon="&#xe654;" clickFun="Menu.openAddMenu()"/>
+                                    <#button name="修改" icon="&#xe642;" clickFun="Menu.openChangeMenu()"/>
+                                    <#button name="删除" icon="&#xe640;" clickFun="Menu.delMenu()"/>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="layui-form-item">
+                                    <#NameCon id="menuName" name="菜单名称" />
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="layui-form-item">
+                                    <#NameCon id="level" name="层级" />
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="layui-form-item">
+                                    <#button name="搜索" clickFun="Menu.search()" filter="menuSearch"/>
+                                </div>
+                            </div>
 
-                    <#button name="添加" icon="fa-plus" clickFun="Menu.openAddMenu()"/>
-
-
-                    <#button name="修改" icon="fa-edit" clickFun="Menu.openChangeMenu()" space="true"/>
-
-                    <#button name="删除" icon="fa-remove" clickFun="Menu.delMenu()" space="true"/>
-
-                </div>
-                <#table id="menuTable"/>
+                        </div>
+            </form>
+            <div style="display: inline-block; width: 200px; height: 500px; padding: 10px; border: 1px solid #ddd; overflow: auto;">
+                <ul id="menuTree"></ul>
             </div>
         </div>
     </div>
