@@ -7,6 +7,6 @@
     icon : 按钮上的图标的样式
     name : 按钮名称
 @*/
-<button type="button" class="layui-btn layui-btn-${btnType!}" lay-filter="${filter!}" onclick="${clickFun}" id=""${id!}>
+<button type="button" class="layui-btn layui-btn-${btnType!}" lay-submit lay-filter="${filter!}" onclick="${clickFun!}" id=""${id!}>
     <i class="layui-icon">${icon!}</i>&nbsp;${name}
 </button>

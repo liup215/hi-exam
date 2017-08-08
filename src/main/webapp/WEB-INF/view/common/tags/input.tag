@@ -10,7 +10,7 @@
 @*/
     <label class="layui-form-label">${name}</label>
     <div class="layui-input-block">
-        <input class="layui-input" id="${id}" name="${id}"
+        <input class="layui-input" id="${id}" lay-verify="${verify!}" name="${id}"
                @if(isNotEmpty(value)){
                     value="${tool.dateType(value)}"
                @}

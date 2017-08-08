@@ -49,7 +49,6 @@ public class MenuServiceImpl implements IMenuService {
             MenuNode node = getMenuNode(menu);
             menuNodes.add(node);
         }
-        System.out.println(menuNodes);
         return menuNodes;
     }
 
