@@ -1,7 +1,11 @@
-layui.use(['form','tree','jquery'],function () {
+layui.config({
+    base:'/static/js/'
+}).use(['form','tree','jquery','hiexam'],function () {
     window.jQuery=window.$=layui.jquery;
     var form = layui.form();
     var layer = layui.layer;
+    var HiExam = layui.hiexam;
+
     var Menus = {
         elem:"#menuTree",
         seItem:null,
@@ -9,17 +13,11 @@ layui.use(['form','tree','jquery'],function () {
     }
     //初始化菜单
     Menus.init = function(){
-        $.ajax({
-            url:'/menu/list',
-            type:'get',
-            success:function (data) {
-              Menus.nodes = data;
-            },
-            datatype:'json',
-            async : false
-        })
 
-        Menus.nodes = buildTree(Menus.nodes,null);
+        Menus.nodes = HiExam.initTree({
+            url:'/menu/list',
+            type:'get'
+        })
     };
 
     //点击展示菜单详情
@@ -48,20 +46,8 @@ layui.use(['form','tree','jquery'],function () {
         }
     }
 
-    //构建树形结构
-    function buildTree(data,pcode){
-        pcode = pcode || 0;
-        var list = [];
-        data.map(function(item){
-            if(item.pcode == pcode){
-                item.children = buildTree(data,item.code);
-                list.push(item);
-            }
-        });
-        return list;
-    }
-
     Menus.init();
+
     layui.tree(Menus);
 
     //点击添加菜单

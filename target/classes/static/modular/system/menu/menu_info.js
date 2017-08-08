@@ -1,5 +1,8 @@
-layui.use(['form','jquery','element','tree','layer'],function () {
+layui.config({
+    base: '/static/js/'
+}).use(['form','jquery','element','tree','layer','hiexam'],function () {
     window.jQuery = window.$ = layui.jquery;
+    var HiExam = layui.hiexam;
     var form = layui.form();
     var layer = layui.layer;
 
@@ -88,5 +91,23 @@ layui.use(['form','jquery','element','tree','layer'],function () {
         layer.log("弹出树")
     })
 
+
+    $("#pcodeName").on('focus',function () {
+        layer.open({
+            type:1,
+            content:"<ul id='menuTree' style='overflow-y:scroll;'></ul>",
+            offset:'t'
+        })
+        layui.tree({
+            elem:"#menuTree",
+            nodes:HiExam.initTree({
+                url:'/menu/list',
+                type:'get',
+                func:function(){
+
+                }
+            })
+        });
+    })
 });
 
