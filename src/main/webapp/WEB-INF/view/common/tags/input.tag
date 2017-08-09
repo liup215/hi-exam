@@ -7,10 +7,11 @@
     readonly : readonly属性
     clickFun : 点击事件的方法名
     style : 附加的css属性
+    placeholder:
 @*/
     <label class="layui-form-label">${name}</label>
     <div class="layui-input-block">
-        <input class="layui-input" id="${id}" lay-verify="${verify!}" name="${id}"
+        <input class="layui-input" id="${id}" lay-verify="${verify!}" placeholder="${placeholder!}" name="${id}"
                @if(isNotEmpty(value)){
                     value="${tool.dateType(value)}"
                @}

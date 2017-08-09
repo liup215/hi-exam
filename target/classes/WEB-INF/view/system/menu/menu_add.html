@@ -8,7 +8,7 @@
 				<#input id="code" name="菜单编号" verify="required" underline="true" />
 			</div>
 			<div class="layui-form-item">
-				<#input id="pcodeName" name="父级编号" verify="required" underline="true" />
+				<#input id="pcode" name="父级编号" verify="required" underline="true" />
 
 
 			</div>
@@ -30,7 +30,7 @@
 		<div class="layui-form-item">
 			<div class="layui-input-block">
 				<#button name="提交" id="ensure" filter="menuAdd"/>
-				<#button name="取消" id="cancel" clickFun="menuClose"/>
+				<#button name="取消" id="cancel" filter="menuClose"/>
 			</div>
 		</div>
 </form>

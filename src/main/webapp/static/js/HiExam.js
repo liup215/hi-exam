@@ -32,8 +32,15 @@ layui.define(['jquery'],function (exports) {
             },
             async:false
         });
-        return buildTree(nodes,null);
-    }
+        var root = [
+            {
+                name:'根目录',
+                children:buildTree(nodes,null),
+                spread:true
+            }
+        ]
 
+        return root;
+    }
     exports(module_name,HiExam)
 })

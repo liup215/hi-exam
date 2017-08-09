@@ -9,7 +9,8 @@ layui.config({
     var Menus = {
         elem:"#menuTree",
         seItem:null,
-        menuInfoData:{}
+        menuInfoData:{},
+        layerIndex:-1
     }
     //初始化菜单
     Menus.init = function(){
@@ -25,7 +26,7 @@ layui.config({
         $('#id').val(node.id);
         $('#name').val(node.name);
         $('#code').val(node.code);
-        $('#pcode').val(node.pcode);
+        $('#pcode').val(node.pcode||'0');
         $('#url').val(node.url);
         $('#num').val(node.num);
         $('#levels').val(node.levels);
@@ -87,11 +88,10 @@ layui.config({
                         url:'/menu/remove',
                         data:{menuId:Menus.seItem.id},
                         success:function(data){
-                            layer.log(data.message);
+                            layer.msg(data.message);
+                            window.location.reload();
                         }
                     });
-                    layer.close(index);
-                    layerui.tree(Menus);
                 },
                 btn2: function (index) {
                     layer.close(index);

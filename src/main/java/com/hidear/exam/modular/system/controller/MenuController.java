@@ -66,7 +66,6 @@ public class MenuController {
             throw new BussinessException(BizExceptionEnum.REQUEST_NULL);
         }
         Menu menu = menuRepository.findOne(menuId);
-
         //获取父级菜单的id
         Menu temp = new Menu();
         temp.setCode(menu.getPcode());
@@ -163,8 +162,8 @@ public class MenuController {
             menu.setPcode("0");
             menu.setLevels(1);
         } else {
-            int code = Integer.parseInt(menu.getPcode());
-            Menu pMenu = menuRepository.findOne(code);
+            String pCode = menu.getPcode();
+            Menu pMenu = menuRepository.findByCode(pCode);
             Integer pLevels = pMenu.getLevels();
             menu.setPcode(pMenu.getCode());
             menu.setLevels(pLevels + 1);

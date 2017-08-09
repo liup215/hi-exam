@@ -9,7 +9,7 @@
         <#input id="code" name="菜单编号" value="${menu.code}" underline="true" />
     </div>
     <div class="layui-form-item">
-        <#input id="pcodeName" name="父级编号" value="${menu.pcodeName}" underline="true" clickFunc="showMenuSelectTree()"/>
+        <#input id="pcode" name="父级编号" placeholder="${menu.pcodeName}" value="${menu.pcodeName}" underline="true" clickFunc="showMenuSelectTree()"/>
     </div>
     <div class="layui-form-item">
         <#select id="ismenu" name="是否是菜单">
@@ -28,8 +28,8 @@
     </div>
     <div class="layui-form-item">
         <div class="layui-input-block">
-            <#button name="提交" id="ensure" clickFun="MenuInfoDlg.addSubmit()"/>
-            <#button name="取消" id="cancel" clickFun="MenuInfoDlg.close()"/>
+            <#button name="提交" id="ensure" filter="menuChange" />
+            <#button name="取消" id="cancel" filter="menuClose" />
         </div>
     </div>
 </form>
