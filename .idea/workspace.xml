@@ -2,17 +2,725 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51926341-8ca3-484a-aaec-8393bf423aeb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/dataTables.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/beautifyhtml/beautifyhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/chartJs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/clockpicker/clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/apl/apl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/apl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/asterisk/asterisk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/asterisk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/clike/clike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/clike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/clike/scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/clojure/clojure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/clojure/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/cobol/cobol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/cobol/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/coffeescript/coffeescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/coffeescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/commonlisp/commonlisp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/commonlisp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/less_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/scss.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/scss_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/css/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/cypher/cypher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/cypher/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/d/d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/d/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dart/dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/diff/diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/diff/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/django/django.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/django/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dockerfile/dockerfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dockerfile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dtd/dtd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dtd/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dylan/dylan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/dylan/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ebnf/ebnf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ebnf/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ecl/ecl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ecl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/eiffel/eiffel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/eiffel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/erlang/erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/erlang/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/fortran/fortran.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/fortran/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gas/gas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gfm/gfm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gfm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gfm/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gherkin/gherkin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/gherkin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/go/go.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/go/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/groovy/groovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/groovy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haml/haml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haml/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haskell/haskell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haskell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haxe/haxe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/haxe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/htmlembedded/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/htmlmixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/http/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/http/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/idl/idl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/idl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/jade/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/jade/jade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/javascript/json-ld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/javascript/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/javascript/typescript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/jinja2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/jinja2/jinja2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/julia/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/julia/julia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/kotlin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/kotlin/kotlin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/livescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/livescript/livescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/lua/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/lua/lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/markdown/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/markdown/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/mirc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/mirc/mirc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/mllike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/mllike/mllike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/modelica/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/modelica/modelica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/nginx/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/nginx/nginx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ntriples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ntriples/ntriples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/octave/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/octave/octave.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/pascal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/pascal/pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/pegjs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/pegjs/pegjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/perl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/perl/perl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/php/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/php/php.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/php/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/pig/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/pig/pig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/properties/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/properties/properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/puppet/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/puppet/puppet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/python/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/python/python.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/q/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/r/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/r/r.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rpm/changes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rpm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rpm/rpm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rst/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rst/rst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ruby/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ruby/ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/ruby/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rust/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/rust/rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sass/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sass/sass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/scheme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/scheme/scheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/shell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/shell/shell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/shell/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sieve/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sieve/sieve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/slim/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/slim/slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/slim/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/smalltalk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/smalltalk/smalltalk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/smarty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/smarty/smarty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/smartymixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/smartymixed/smartymixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/solr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/solr/solr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/soy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/soy/soy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sparql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sparql/sparql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/spreadsheet/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/spreadsheet/spreadsheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/sql/sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/stex/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/stex/stex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/stex/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tcl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tcl/tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/textile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/textile/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/textile/textile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tiddlywiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tiki/tiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tiki/tiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/toml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/toml/toml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tornado/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/tornado/tornado.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/turtle/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/turtle/turtle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/vb/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/vb/vb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/vbscript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/vbscript/vbscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/velocity/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/velocity/velocity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/verilog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/verilog/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/verilog/verilog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/xml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/xml/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/xml/xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/xquery/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/xquery/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/xquery/xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/yaml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/yaml/yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/z80/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/codemirror/mode/z80/z80.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/cropper/cropper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/dataTables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/diff_match_patch/diff_match_patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/dropzone/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/echarts/echarts-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fancybox/jquery.fancybox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/curvedLines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/footable/footable.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fullcalendar/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/gritter/images/gritter-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/gritter/images/gritter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/gritter/jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jqgrid/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jquery-treegrid/extension/jquery.treegrid.extension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jquery-treegrid/js/jquery.treegrid.bootstrap3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jquery-treegrid/js/jquery.treegrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jsTree/jstree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jsTree/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/extend/layer.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/laydate/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/laydate/need/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/laydate/skins/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/laydate/skins/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/data/chatlog.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/data/friend.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/data/group.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/data/groups.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/layim.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/layim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/icon_ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/textbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/xubox_ico0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/xubox_loading0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/xubox_loading1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/xubox_loading2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/xubox_loading3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/xubox_title0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/layer.ext.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/moon/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/moon/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/markdown/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/markdown/to-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/multiselect/bootstrap-multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/plyr/plyr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/prettyfile/bootstrap-prettyfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/hotkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/hotkeys.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/module.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/simditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/simditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/simditor/uploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/staps/jquery.steps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/suggest/bootstrap-suggest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/suggest/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/summernote/summernote-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/switchery/switchery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/treeview/bootstrap-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/validate/additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/validate/bootstrapValidator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/validate/zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/wangEditor/wangEditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.fis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.noimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.noimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.nolog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.nolog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/jsplug/echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/jsplug/jparticle.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/beautifyhtml/beautifyhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/chartJs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/clockpicker/clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/apl/apl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/apl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/asterisk/asterisk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/asterisk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/clike/clike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/clike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/clike/scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/clojure/clojure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/clojure/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/cobol/cobol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/cobol/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/coffeescript/coffeescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/coffeescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/commonlisp/commonlisp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/commonlisp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/less_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/scss.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/scss_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/css/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/cypher/cypher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/cypher/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/d/d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/d/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dart/dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/diff/diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/diff/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/django/django.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/django/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dockerfile/dockerfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dockerfile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dtd/dtd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dtd/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dylan/dylan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/dylan/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ebnf/ebnf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ebnf/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ecl/ecl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ecl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/eiffel/eiffel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/eiffel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/erlang/erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/erlang/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/fortran/fortran.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/fortran/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gas/gas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gfm/gfm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gfm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gfm/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gherkin/gherkin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/gherkin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/go/go.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/go/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/groovy/groovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/groovy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haml/haml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haml/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haskell/haskell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haskell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haxe/haxe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/haxe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/htmlembedded/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/htmlmixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/http/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/http/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/idl/idl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/idl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/jade/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/jade/jade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/javascript/json-ld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/javascript/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/javascript/typescript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/jinja2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/jinja2/jinja2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/julia/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/julia/julia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/kotlin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/kotlin/kotlin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/livescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/livescript/livescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/lua/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/lua/lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/markdown/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/markdown/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/mirc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/mirc/mirc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/mllike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/mllike/mllike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/modelica/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/modelica/modelica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/nginx/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/nginx/nginx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ntriples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ntriples/ntriples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/octave/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/octave/octave.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/pascal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/pascal/pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/pegjs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/pegjs/pegjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/perl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/perl/perl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/php/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/php/php.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/php/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/pig/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/pig/pig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/properties/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/properties/properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/puppet/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/puppet/puppet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/python/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/python/python.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/q/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/r/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/r/r.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rpm/changes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rpm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rpm/rpm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rst/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rst/rst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ruby/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ruby/ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/ruby/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rust/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/rust/rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sass/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sass/sass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/scheme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/scheme/scheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/shell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/shell/shell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/shell/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sieve/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sieve/sieve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/slim/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/slim/slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/slim/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/smalltalk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/smalltalk/smalltalk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/smarty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/smarty/smarty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/smartymixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/smartymixed/smartymixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/solr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/solr/solr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/soy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/soy/soy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sparql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sparql/sparql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/spreadsheet/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/spreadsheet/spreadsheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/sql/sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/stex/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/stex/stex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/stex/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tcl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tcl/tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/textile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/textile/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/textile/textile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tiddlywiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tiki/tiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tiki/tiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/toml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/toml/toml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tornado/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/tornado/tornado.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/turtle/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/turtle/turtle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/vb/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/vb/vb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/vbscript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/vbscript/vbscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/velocity/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/velocity/velocity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/verilog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/verilog/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/verilog/verilog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/xml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/xml/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/xml/xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/xquery/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/xquery/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/xquery/xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/yaml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/yaml/yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/z80/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/z80/z80.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/cropper/cropper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/dataTables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/diff_match_patch/diff_match_patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/dropzone/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/echarts/echarts-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fancybox/jquery.fancybox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/curvedLines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/footable/footable.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fullcalendar/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/images/gritter-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/images/gritter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jqgrid/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jquery-treegrid/extension/jquery.treegrid.extension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jquery-treegrid/js/jquery.treegrid.bootstrap3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jquery-treegrid/js/jquery.treegrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jsTree/jstree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jsTree/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/extend/layer.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/laydate/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/laydate/need/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/laydate/skins/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/laydate/skins/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/data/chatlog.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/data/friend.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/data/group.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/data/groups.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/layim.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/layim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/layim/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/icon_ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/textbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/xubox_ico0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/xubox_loading0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/xubox_loading1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/xubox_loading2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/xubox_loading3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/default/xubox_title0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/layer.ext.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/moon/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/layer/skin/moon/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/markdown/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/markdown/to-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/multiselect/bootstrap-multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/plyr/plyr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/prettyfile/bootstrap-prettyfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/hotkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/hotkeys.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/module.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/simditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/simditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/simditor/uploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/staps/jquery.steps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/suggest/bootstrap-suggest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/suggest/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/summernote/summernote-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/switchery/switchery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/treeview/bootstrap-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/validate/additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/validate/bootstrapValidator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/validate/zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/wangEditor/wangEditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.fis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.noimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.noimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.nolog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.nolog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ztree/jquery.ztree.all.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/exam.log" afterPath="$PROJECT_DIR$/logs/exam.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/MenuController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/MenuController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/input.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/input.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/table.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/table.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_add.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/HiExam.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/HiExam.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_container.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_container.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu_info.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu_info.js" />
     </list>
     <ignored path="hi-exam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,73 +750,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="navtab.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/navtab.js">
+      <file leaf-file-name="dataTables.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/dataTables.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="113" column="39" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="larry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/larry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/table.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+            <state relative-caret-position="-3979">
+              <caret line="253" column="39" lean-forward="true" selection-start-line="253" selection-start-column="39" selection-end-line="253" selection-end-column="39" />
               <folding>
-                <element signature="e#0#48#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1502461040057" expanded="true" signature="194426:194451" ph="..." />
+                <marker date="1502461040057" expanded="true" signature="194720:194745" ph="..." />
+                <marker date="1502461040057" expanded="true" signature="512939:512947" ph="&amp;##x2026;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HiExam.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/HiExam.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grade.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grade.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="grade.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="207">
+              <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -131,7 +792,11 @@
       <find>text-</find>
       <find>.text-</find>
       <find>alert</find>
+      <find>this</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Table.prototype</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,19 +847,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/serviceImpl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/button.tag" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_container.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/input.tag" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/HiExam.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_edit.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_add.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/HiExam.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu_info.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/table.tag" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/table.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/jquery.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/table.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/dataTables.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/dataTables.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_container.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade.js" />
       </list>
     </option>
   </component>
@@ -217,24 +882,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1934" />
+    <option name="width" value="1931" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -251,7 +906,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,12 +913,6 @@
               <option name="myItemId" value="hi-exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hi-exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -322,41 +970,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,78 +1061,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -680,7 +1222,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hi-exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hi-exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -702,123 +1262,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -832,7 +1283,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\static\common\layui\lay\modules" />
+      <recent name="G:\programtool\ide\idea\workspace\hi-exam\src\main\webapp\static\js" />
       <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\static\js" />
       <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\static" />
     </key>
@@ -841,11 +1292,11 @@
       <recent name="com.hidear.exam.modular.base.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\programtool\ide\idea\workspace\hi-exam\src\main\webapp\static\css" />
       <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\WEB-INF\view" />
       <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\static\js\common" />
       <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\static\js" />
       <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\WEB-INF\view\common" />
-      <recent name="D:\developer\idea\ideaIU-2016.2.5\workspace\hi-exam\src\main\webapp\WEB-INF\view\common\tags" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -868,7 +1319,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -878,7 +1329,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -886,7 +1337,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -911,7 +1366,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -1109,6 +1568,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -1125,27 +1585,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1173,6 +1612,19 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -1204,6 +1656,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1224,6 +1683,10 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -1239,6 +1702,10 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -1276,34 +1743,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1314,7 +1753,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -1338,6 +1777,10 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -1351,7 +1794,7 @@
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ExamApplication" />
     </list>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -1361,7 +1804,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -1369,11 +1812,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1405,48 +1844,49 @@
       <workItem from="1501814226151" duration="22725000" />
       <workItem from="1501902417655" duration="18132000" />
       <workItem from="1502174206995" duration="13358000" />
-      <workItem from="1502242598078" duration="21134000" />
+      <workItem from="1502455028287" duration="283000" />
+      <workItem from="1502455387918" duration="7007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111019000" />
+    <option name="totallyTimeSpent" value="97305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1934" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="0" width="1931" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74154854" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4514722" sideWeight="0.50213903" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74179894" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5070883" sideWeight="0.49786097" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18835978" sideWeight="0.49786097" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21016043" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21148825" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17557251" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1477,28 +1917,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/questionDb/controller/QuestionDbController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="1195" column="0" selection-start-line="1195" selection-start-column="0" selection-end-line="1195" selection-end-column="0" />
+          <caret line="1195" column="0" lean-forward="false" selection-start-line="1195" selection-start-column="0" selection-end-line="1195" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/container.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/plugins/flot/curvedLines.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1507,15 +1947,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common/Feng.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common/ajax-object.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/table.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/avatar.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1525,28 +1973,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_left.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/backstage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
-          <caret line="993" column="0" selection-start-line="993" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
+          <caret line="993" column="0" lean-forward="false" selection-start-line="993" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1556,57 +2004,51 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/element.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="1987" selection-start-line="1" selection-start-column="1987" selection-end-line="1" selection-end-column="1987" />
+          <caret line="1" column="1987" lean-forward="false" selection-start-line="1" selection-start-column="1987" selection-end-line="1" selection-end-column="1987" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_right.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/select.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/Feng.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/Feng.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/common/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/IMenuService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/button.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1614,205 +2056,199 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/serviceImpl/MenuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding />
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/NameCon.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/dest/layui.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="4" column="13622" selection-start-line="4" selection-start-column="13622" selection-end-line="4" selection-end-column="13622" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1" column="12124" selection-start-line="1" selection-start-column="12124" selection-end-line="1" selection-end-column="12124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/input.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_container.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-          <folding>
-            <marker date="1502255426103" expanded="true" signature="2884:2902" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/model/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="-103">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="117" lean-forward="false" selection-start-line="11" selection-start-column="117" selection-end-line="11" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/navtab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/input.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/larry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1517">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/menu/menu_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/tags/table.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1502455294520" expanded="true" signature="1100:1123" ph="..." />
+            <marker date="1502455294520" expanded="true" signature="1100:1132" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="136" selection-start-line="1" selection-start-column="136" selection-end-line="1" selection-end-column="136" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/larry.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/laydate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="937">
+          <caret line="1" column="12956" lean-forward="true" selection-start-line="1" selection-start-column="12956" selection-end-line="1" selection-end-column="12956" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/navtab.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="113" column="39" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="23">
+          <caret line="1" column="120" lean-forward="false" selection-start-line="1" selection-start-column="120" selection-end-line="1" selection-end-column="120" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="135" column="10" lean-forward="false" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+          <folding>
+            <marker date="1502455294593" expanded="true" signature="2884:2902" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/HiExam.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="482">
+          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_container.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="93" lean-forward="false" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/menu/menu.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/jquery.dataTables.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="-7452">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/base/grade/grade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="166">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/common/layui/lay/modules/table.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/dataTables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+        <state relative-caret-position="-3979">
+          <caret line="253" column="39" lean-forward="true" selection-start-line="253" selection-start-column="39" selection-end-line="253" selection-end-column="39" />
           <folding>
-            <element signature="e#0#48#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1502461040057" expanded="true" signature="194426:194451" ph="..." />
+            <marker date="1502461040057" expanded="true" signature="194720:194745" ph="..." />
+            <marker date="1502461040057" expanded="true" signature="512939:512947" ph="&amp;##x2026;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/grade/grade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
