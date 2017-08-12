@@ -29,7 +29,7 @@
 
     if ( typeof define === 'function' && define.amd ) {
         // AMD
-        define( ['static/common/layui/lay/modules/jquery'], function ($ ) {
+        define( ['static/common/layui/lay/modules/jquery'], function ($) {
             return factory( $, window, document );
         } );
     }
