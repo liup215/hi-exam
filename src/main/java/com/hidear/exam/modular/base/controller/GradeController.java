@@ -8,6 +8,8 @@ import com.hidear.exam.common.exception.BussinessException;
 import com.hidear.exam.core.support.BeanKit;
 import com.hidear.exam.core.util.ToolUtil;
 import com.hidear.exam.modular.base.model.Grade;
+import com.hidear.exam.modular.base.status.GradeLevel;
+import com.hidear.exam.modular.base.status.GradeStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -57,7 +59,12 @@ public class GradeController {
     }
 
     @RequestMapping(value="/grade_add",method = RequestMethod.GET)
-    public String add(){
+    public String add(Model model){
+
+        GradeStatus[] statuses = GradeStatus.values();
+        GradeLevel[] levels = GradeLevel.values();
+        model.addAttribute("statuses",statuses);
+        model.addAttribute("levels",levels);
         return PREFIX+"grade_add.html";
     }
     
@@ -80,7 +87,13 @@ public class GradeController {
         }
         Grade grade = gradeRepository.findOne(gradeId);
         Map<String,Object> map = BeanKit.beanToMap(grade);
+
+        GradeStatus[] statuses = GradeStatus.values();
+        GradeLevel[] levels = GradeLevel.values();
+
         model.addAttribute("grade",map);
+        model.addAttribute("levels",levels);
+        model.addAttribute("statuses",statuses);
         return PREFIX+"grade_edit.html";
     }
 

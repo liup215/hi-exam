@@ -9,6 +9,8 @@ import com.hidear.exam.core.support.BeanKit;
 import com.hidear.exam.core.util.ToolUtil;
 import com.hidear.exam.modular.base.dao.SubjectRepository;
 import com.hidear.exam.modular.base.model.Subject;
+import com.hidear.exam.modular.base.status.GradeLevel;
+import com.hidear.exam.modular.base.status.GradeStatus;
 import com.hidear.exam.modular.base.wrapper.SubjectWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -49,14 +51,18 @@ public class SubjectController {
      * 跳转到添加科目管理
      */
     @RequestMapping("/subject_add")
-    public String subjectAdd() {
+    public String subjectAdd(Model model) {
+        GradeStatus[] statuses = GradeStatus.values();
+        GradeLevel[] levels = GradeLevel.values();
+        model.addAttribute("statuses",statuses);
+        model.addAttribute("levels",levels);
         return PREFIX + "subject_add.html";
     }
 
     /**
      * 跳转到修改科目管理
      */
-    @RequestMapping("/subject_update/{subjectId}")
+    @RequestMapping("/subject_edit/{subjectId}")
     public String subjectUpdate(@PathVariable Integer subjectId, Model model) {
         if (ToolUtil.isEmpty(subjectId)) {
             throw new BussinessException(BizExceptionEnum.REQUEST_NULL);
@@ -65,6 +71,10 @@ public class SubjectController {
         Subject subject = subjectRepository.findOne(subjectId);
         Map<String,Object> map = BeanKit.beanToMap(subject);
 
+        GradeStatus[] statuses = GradeStatus.values();
+        GradeLevel[] levels = GradeLevel.values();
+        model.addAttribute("statuses",statuses);
+        model.addAttribute("levels",levels);
         model.addAttribute("subject",map);
 
         return PREFIX + "subject_edit.html";

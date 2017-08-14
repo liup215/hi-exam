@@ -15,7 +15,7 @@ layui.define(['jquery','laypage'],function (exports) {
     };
 
     var seItem = null;
-    var currentPage = -1;
+    var currentPage = 1;
 
     var TABLE = {};
 
@@ -56,6 +56,8 @@ layui.define(['jquery','laypage'],function (exports) {
         })
         TABLE.tableContainer.append("<tbody id = '"+_config.table+"Body'></tbody>");
 
+        currentPage=1;
+        seItem = null;
         return _this;
     };
 
@@ -70,30 +72,27 @@ layui.define(['jquery','laypage'],function (exports) {
             jump:function (obj) {
                 currentPage = obj.curr;
                 document.getElementById(TABLE.table + 'Body').innerHTML = TABLE.render(TABLE.columns,TABLE.data,obj.curr);
-            }
-        });
-
-        //监听选中
-        $("tbody tr").on('click',function () {
-            if($(this).hasClass('selected')){
-                $(this).removeClass('selected').css('background','');
-                seItem = null;
-            }else{
-                $(this).siblings('tr').each(function () {
+                $("tr").on('click',function () {
                     if($(this).hasClass('selected')){
                         $(this).removeClass('selected').css('background','');
+                        seItem = null;
+                    }else{
+                        $(this).siblings('tr').each(function () {
+                            if($(this).hasClass('selected')){
+                                $(this).removeClass('selected').css('background','');
+                            }
+                        })
+                        $(this).addClass('selected').css('background','#F1F2F7');
+
+                        if(currentPage==-1){
+                            seItem = TABLE.data[$(this).index()]
+                        }else{
+                            seItem = TABLE.data[(currentPage-1)*TABLE.nums+$(this).index()]
+                        }
                     }
                 })
-                $(this).addClass('selected').css('background','#F1F2F7');
-
-                alert($(this).index());
-                // for(var index in TABLE.data){
-                //     if(TABLE.data[index].id==seId){
-                //         seItem = TABLE.data[index];
-                //     }
-                // }
             }
-        })
+        });
 
     };
 
@@ -104,7 +103,6 @@ layui.define(['jquery','laypage'],function (exports) {
     };
 
     LayTable.prototype.refresh = function(){
-        alert("aaa")
         $("#"+TABLE.table).empty();
         $("#"+TABLE.page).empty();
         this.init();
@@ -120,7 +118,7 @@ layui.define(['jquery','laypage'],function (exports) {
                 content = data;
             },
             async:false
-        })
+        });
         return content;
     }
 

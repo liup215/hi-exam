@@ -1,132 +1,82 @@
-/**
- * 菜单详情对话框
- */
-var GradeInfoDlg = {
-    gradeInfoData: {},
-    validateFields: {
-        name: {
-            validators: {
-                notEmpty: {
-                    message: '年级名称不能为空'
-                }
-            }
-        },
-        level: {
-            validators: {
-                notEmpty: {
-                    message: '年级学段不能为空'
-                }
-            }
-        },
-        status: {
-            validators: {
-                notEmpty: {
-                    message: '年级状态不能为空'
-                }
-            }
-        }
-    }
-};
+layui.use(['jquery','form','layer'],function () {
+    window.jQuery = window.$ = layui.jquery;
+    var form = layui.form();
+    var layer = layui.layer;
 
-/**
- * 清除数据
- */
-GradeInfoDlg.clearData = function () {
-    this.gradeInfoData = {};
-}
-
-/**
- * 设置对话框中的数据
- *
- * @param key 数据的名称
- * @param val 数据的具体值
- */
-GradeInfoDlg.set = function (key, val) {
-    this.gradeInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
-    return this;
-}
-
-/**
- * 设置对话框中的数据
- *
- * @param key 数据的名称
- * @param val 数据的具体值
- */
-GradeInfoDlg.get = function (key) {
-    return $("#" + key).val();
-}
-
-/**
- * 关闭此对话框
- */
-GradeInfoDlg.close = function () {
-    parent.layer.close(window.parent.Grade.layerIndex);
-}
-
-/**
- * 收集数据
- */
-GradeInfoDlg.collectData = function () {
-    this.set('id').set('name').set('level').set('status');
-}
-
-/**
- * 验证数据是否为空
- */
-GradeInfoDlg.validate = function () {
-    $('#gradeInfoForm').data("bootstrapValidator").resetForm();
-    $('#gradeInfoForm').bootstrapValidator('validate');
-    return $("#gradeInfoForm").data('bootstrapValidator').isValid();
-}
-
-/**
- * 提交添加用户
- */
-GradeInfoDlg.addSubmit = function () {
-
-    this.clearData();
-    this.collectData();
-
-    if (!this.validate()) {
-        return;
+    var GradeInfoDlg = {
+        gradeInfoData:{}
     }
 
-    //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/grade/add", function (data) {
-        Feng.success("添加成功!");
-        window.parent.Grade.table.refresh();
-        GradeInfoDlg.close();
-    }, function (data) {
-        Feng.error("添加失败!" + data.responseJSON.message + "!");
+    /**
+     * 关闭弹窗
+     */
+    GradeInfoDlg.close = function () {
+        var index = parent.layer.getFrameIndex(window.name);
+        parent.layer.close(index);
+    }
+
+    /**
+     * 清除数据
+     */
+    GradeInfoDlg.clearData = function () {
+        this.gradeInfoData = {};
+    };
+
+    GradeInfoDlg.set = function (key, value) {
+        this.gradeInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
+        return this;
+    }
+
+    /**
+     * 设置对话框中的数据
+     *
+     * @param key 数据的名称
+     * @param val 数据的具体值
+     */
+    GradeInfoDlg.get = function (key) {
+        return $("#" + key).val();
+    }
+
+    /**
+     * 收集数据
+     */
+    GradeInfoDlg.collectData = function () {
+        this.set('id').set('name').set('level').set('status');
+    }
+
+    form.on('submit(addSubmit)',function () {
+        GradeInfoDlg.clearData();
+        GradeInfoDlg.collectData();
+
+        $.ajax({
+            url:'/grade/add',
+            data:GradeInfoDlg.gradeInfoData,
+            type:'POST',
+            success:function(data){
+                layer.msg("添加成功");
+                parent.location.reload();
+            },
+            error:function () {
+                layer.msg("数据提交错误");
+            }
+        })
     });
-    ajax.set(this.gradeInfoData);
-    ajax.start();
-}
 
-/**
- * 提交修改
- */
-GradeInfoDlg.editSubmit = function () {
+    form.on('submit(editSubmit)',function () {
+        GradeInfoDlg.clearData();
+        GradeInfoDlg.collectData();
 
-    this.clearData();
-    this.collectData();
-
-    if (!this.validate()) {
-        return;
-    }
-
-    //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/grade/edit", function (data) {
-        Feng.success("修改成功!");
-        window.parent.Grade.table.refresh();
-        GradeInfoDlg.close();
-    }, function (data) {
-        Feng.error("修改失败!" + data.responseJSON.message + "!");
-    });
-    ajax.set(this.gradeInfoData);
-    ajax.start();
-}
-
-$(function () {
-    Feng.initValidator("gradeInfoForm", GradeInfoDlg.validateFields);
+        $.ajax({
+            url:'/grade/edit',
+            data:GradeInfoDlg.gradeInfoData,
+            type:'POST',
+            success:function(data){
+                layer.msg("添加成功");
+                parent.location.reload();
+            },
+            error:function () {
+                layer.msg("数据提交错误");
+            }
+        })
+    })
 });
