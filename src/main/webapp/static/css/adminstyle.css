@@ -356,9 +356,10 @@
 .form-control {
     height: 30px;
 }
-@media (min-width: 1200px)
+@media (min-width: 1200px){
 .col-lg-12 {
     width: 100%;
     float: left;
+}
 }
 
