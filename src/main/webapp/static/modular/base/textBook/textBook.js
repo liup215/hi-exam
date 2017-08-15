@@ -1,102 +1,99 @@
-/**
- * 教材管理管理初始化
- */
-var TextBook = {
-    id: "TextBookTable",	//表格id
-    seItem: null,		//选中的条目
-    table: null,
-    layerIndex: -1
-};
+layui.use(['form','jquery','laytable'],function () {
+    window.jQuery = window.$ = layui.jquery;
+    var layer = layui.layer,
+        form = layui.form();
 
-/**
- * 初始化表格的列
- */
-TextBook.initColumn = function () {
-    return [
-        {field: 'selectItem', radio: true},
-        {title: 'id', field: 'id', visible: true, align: 'center', valign: 'middle'},
-        {title: '教材名称', field: 'name', align: 'center', valign: 'middle', sortable: true},
-        {title: 'logo', field: 'logo', align: 'center', valign: 'middle', sortable: true},
-        {title: '学段', field: 'gradeLevel', align: 'center', valign: 'middle', sortable: true},
-        {title: '学科', field: 'subject', align: 'center', valign: 'middle', sortable: true},
-        {title: '状态', field: 'status', align: 'center', valign: 'middle', sortable: true}
-    ];
-};
+    var TextBook = {
+        table:"textBookTable",
+        page:"textBookPage",
+        nums:20,
+        seItem:null,
+        layerIndex : -1
+    };
 
-/**
- * 检查是否选中
- */
-TextBook.check = function () {
-    var selected = $('#' + this.id).bootstrapTable('getSelections');
-    if(selected.length == 0){
-        Feng.info("请先选中表格中的某一记录！");
-        return false;
-    }else{
-        TextBook.seItem = selected[0];
-        return true;
-    }
-};
+    //初始化表格列
+    TextBook.initColumn =function () {
+        var columns = [
+            {name:'id',field: 'id'},
+            {name:'logo',field: 'logo'},
+            {name:'教材名称',field:'name'},
+            {name:'学段',field:'gradeLevel'},
+            {name:'学科',field:'subject'},
+            {name:'状态',field: 'status'}];
+        return columns;
+    };
 
-/**
- * 点击添加教材管理
- */
-TextBook.openAddTextBook = function () {
-    var index = layer.open({
-        type: 2,
-        title: '添加教材管理',
-        area: ['800px', '420px'], //宽高
-        fix: false, //不固定
-        maxmin: true,
-        content: Feng.ctxPath + '/textBook/textBook_add'
+
+
+    var defaultColumn = TextBook.initColumn();
+
+    var laytable = layui.laytable({
+        table:TextBook.table,
+        page:TextBook.page,
+        nums:TextBook.nums,
+        columns:defaultColumn,
+        ajax:{
+            url:'/textBook/list',
+            type:'GET'
+        }
     });
-    this.layerIndex = index;
-};
+    laytable.getTable();
 
-/**
- * 打开查看教材管理详情
- */
-TextBook.openTextBookDetail = function () {
-    if (this.check()) {
+    //检查是否选中
+    TextBook.check = function () {
+        var selected = laytable.getSelectItem();
+        if (selected== null) {
+            layer.msg("请选中一项");
+            return false;
+        } else {
+            TextBook.seItem = selected;
+            return true;
+        }
+    };
+
+
+    form.on('submit(textBookAdd)',function () {
         var index = layer.open({
             type: 2,
-            title: '教材管理详情',
-            area: ['800px', '420px'], //宽高
+            title: '添加菜单',
+            area: ['830px', '450px'], //宽高
             fix: false, //不固定
             maxmin: true,
-            content: Feng.ctxPath + '/textBook/textBook_update/' + TextBook.seItem.id
+            content:'/textBook/textBook_add'
         });
-        this.layerIndex = index;
-    }
-};
+        TextBook.layerIndex = index;
+    })
 
-/**
- * 删除教材管理
- */
-TextBook.delete = function () {
-    if (this.check()) {
-        var ajax = new $ax(Feng.ctxPath + "/textBook/delete", function (data) {
-            Feng.success("删除成功!");
-            TextBook.table.refresh();
-        }, function (data) {
-            Feng.error("删除失败!" + data.responseJSON.message + "!");
-        });
-        ajax.set("textBookId",this.seItem.id);
-        ajax.start();
-    }
-};
+    form.on('submit(textBookChange)',function () {
+        if (TextBook.check()) {
+            var index = layer.open({
+                type: 2,
+                title: '修改菜单',
+                area: ['800px', '450px'], //宽高
+                fix: false, //不固定
+                maxmin: true,
+                content: '/textBook/textBook_update/' + TextBook.seItem.id
+            });
+            TextBook.layerIndex = index;
+        }
+    })
 
-/**
- * 查询教材管理列表
- */
-TextBook.search = function () {
-    var queryData = {};
-    queryData['condition'] = $("#condition").val();
-    TextBook.table.refresh({query: queryData});
-};
+    form.on('submit(textBookDelete)',function () {
+        if (TextBook.check()) {
+            layer.confirm("是否刪除学科?", function (index) {
+                $.ajax({
+                    url:'/textBook/delete',
+                    data:{textBookId:TextBook.seItem.id},
+                    success:function (data) {
+                        layer.msg("删除成功！");
+                        TextBook.seItem = null;
+                        laytable.refresh();
+                    }
+                });
 
-$(function () {
-    var defaultColunms = TextBook.initColumn();
-    var table = new BSTable(TextBook.id, "/textBook/list", defaultColunms);
-    table.setPaginationType("client");
-    TextBook.table = table.init();
+                layer.close(index);
+            });
+        }
+    })
+
 });

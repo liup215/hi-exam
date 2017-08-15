@@ -1,92 +1,82 @@
-/**
- * 初始化题库管理详情对话框
- */
-var QuestionDbInfoDlg = {
-    questionDbInfoData : {}
-};
+layui.use(['jquery','form','layer'],function () {
+    window.jQuery = window.$ = layui.jquery;
+    var form = layui.form();
+    var layer = layui.layer;
 
-/**
- * 清除数据
- */
-QuestionDbInfoDlg.clearData = function() {
-    this.questionDbInfoData = {};
-}
+    var QuestionDbInfoDlg = {
+        questionDbInfoData:{}
+    }
 
-/**
- * 设置对话框中的数据
- *
- * @param key 数据的名称
- * @param val 数据的具体值
- */
-QuestionDbInfoDlg.set = function(key, val) {
-    this.questionDbInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
-    return this;
-}
+    /**
+     * 关闭弹窗
+     */
+    QuestionDbInfoDlg.close = function () {
+        var index = parent.layer.getFrameIndex(window.name);
+        parent.layer.close(index);
+    }
 
-/**
- * 设置对话框中的数据
- *
- * @param key 数据的名称
- * @param val 数据的具体值
- */
-QuestionDbInfoDlg.get = function(key) {
-    return $("#" + key).val();
-}
+    /**
+     * 清除数据
+     */
+    QuestionDbInfoDlg.clearData = function () {
+        this.questionDbInfoData = {};
+    };
 
-/**
- * 关闭此对话框
- */
-QuestionDbInfoDlg.close = function() {
-    parent.layer.close(window.parent.QuestionDb.layerIndex);
-}
+    QuestionDbInfoDlg.set = function (key, value) {
+        this.questionDbInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
+        return this;
+    }
 
-/**
- * 收集数据
- */
-QuestionDbInfoDlg.collectData = function() {
-    this.set('id').set('logo').set('name').set('status').set('gradeLevel').set('subject');
-}
+    /**
+     * 设置对话框中的数据
+     *
+     * @param key 数据的名称
+     * @param val 数据的具体值
+     */
+    QuestionDbInfoDlg.get = function (key) {
+        return $("#" + key).val();
+    }
 
-/**
- * 提交添加
- */
-QuestionDbInfoDlg.addSubmit = function() {
+    /**
+     * 收集数据
+     */
+    QuestionDbInfoDlg.collectData = function () {
+        this.set('id').set('logo').set('name').set('status').set('gradeLevel').set('subject');
+    }
 
-    this.clearData();
-    this.collectData();
+    form.on('submit(addSubmit)',function () {
+        QuestionDbInfoDlg.clearData();
+        QuestionDbInfoDlg.collectData();
 
-    //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/questionDb/add", function(data){
-        Feng.success("添加成功!");
-        window.parent.QuestionDb.table.refresh();
-        QuestionDbInfoDlg.close();
-    },function(data){
-        Feng.error("添加失败!" + data.responseJSON.message + "!");
+        $.ajax({
+            url:'/questionDb/add',
+            data:QuestionDbInfoDlg.questionDbInfoData,
+            type:'POST',
+            success:function(data){
+                layer.msg("添加成功");
+                parent.location.reload();
+            },
+            error:function () {
+                layer.msg("数据提交错误");
+            }
+        })
     });
-    ajax.set(this.questionDbInfoData);
-    ajax.start();
-}
 
-/**
- * 提交修改
- */
-QuestionDbInfoDlg.editSubmit = function() {
+    form.on('submit(editSubmit)',function () {
+        QuestionDbInfoDlg.clearData();
+        QuestionDbInfoDlg.collectData();
 
-    this.clearData();
-    this.collectData();
-
-    //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/questionDb/update", function(data){
-        Feng.success("修改成功!");
-        window.parent.QuestionDb.table.refresh();
-        QuestionDbInfoDlg.close();
-    },function(data){
-        Feng.error("修改失败!" + data.responseJSON.message + "!");
-    });
-    ajax.set(this.questionDbInfoData);
-    ajax.start();
-}
-
-$(function() {
-
+        $.ajax({
+            url:'/questionDb/update',
+            data:QuestionDbInfoDlg.questionDbInfoData,
+            type:'POST',
+            success:function(data){
+                layer.msg("添加成功");
+                parent.location.reload();
+            },
+            error:function () {
+                layer.msg("数据提交错误");
+            }
+        })
+    })
 });

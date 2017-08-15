@@ -7,6 +7,7 @@ import com.hidear.exam.core.support.BeanKit;
 import com.hidear.exam.core.util.ToolUtil;
 import com.hidear.exam.modular.base.dao.TextVersionRepository;
 import com.hidear.exam.modular.base.model.TextVersion;
+import com.hidear.exam.modular.base.status.TextVersionStatus;
 import com.hidear.exam.modular.base.wrapper.TextVersionWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -46,7 +47,10 @@ public class TextVersionController {
      * 跳转到添加教材版本管理
      */
     @RequestMapping("/textVersion_add")
-    public String textVersionAdd() {
+    public String textVersionAdd(Model model) {
+
+        TextVersionStatus[] statuses = TextVersionStatus.values();
+        model.addAttribute("statuses",statuses);
         return PREFIX + "textVersion_add.html";
     }
 
@@ -58,10 +62,10 @@ public class TextVersionController {
         if(ToolUtil.isEmpty(textVersionId)){
             throw new BussinessException(BizExceptionEnum.REQUEST_NULL);
         }
-
         TextVersion textVersion = textVersionRepository.findOne(textVersionId);
         model.addAttribute("textVersion",textVersion);
-
+        TextVersionStatus[] statuses = TextVersionStatus.values();
+        model.addAttribute("statuses",statuses);
         return PREFIX + "textVersion_edit.html";
     }
 

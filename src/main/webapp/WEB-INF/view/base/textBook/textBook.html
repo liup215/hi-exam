@@ -1,158 +1,39 @@
 @layout("/common/_container.html"){
-<div class="row">
-    <div class="col-sm-12">
-        <div class="ibox float-e-margins">
-            <div class="ibox-title">
-                <h5>教材管理</h5>
-            </div>
-            <div class="ibox-content">
-                <div class="row row-lg">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <#NameCon id="condition" name="名称" />
-                            </div>
-                            <div class="col-sm-3">
-                                <#button name="搜索" icon="fa-search" clickFun="TextBook.search()"/>
-                            </div>
-                        </div>
-                        <div class="hidden-xs" id="TextBookTableToolbar" role="group">
-                                <#button name="添加" icon="fa-plus" clickFun="TextBook.openAddTextBook()"/>
-
-                                <#button name="修改" icon="fa-plus" clickFun="TextBook.openTextBookDetail()" space="true"/>
-
-                                <#button name="删除" icon="fa-plus" clickFun="TextBook.delete()" space="true"/>
-                        </div>
-                    </div>
-                </div>
+<section class="larry-grid">
+    <div class="larry-personal">
+        <header class="larry-personal-tit">
+            <span>教材版本管理</span>
+        </header>
+        <div class="larry-personal-body clearfix">
+            <form class="layui-form" layui-filter="menuOperation">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1>小学</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h2>语文</h2>
-                            </div>
-                            <div>
-                                <div class="row text-center">
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img src="${ctxPath}/static/img/default_text_cover.jpg" class="img-responsive">
-                                            </div>
-                                            <a href="http://www.baidu.com">
-                                                <div class="col-lg-12">
-                                                    <h4>必修一</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#NameCon id="gradeName" name="学科名称" />
                         </div>
                     </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#button name="搜索" filter="textBookSearch"/>
+                        </div>
+                    </div>
+                    <div class="layui-sm-3">
 
+                    </div>
                 </div>
-            </div>
+            </form>
+            <form class="layui-form">
+                <div id="menuTableToolbar" class="layui-form-item layui-btn-group">
+                    <#button name="添加" icon="&#xe654;" filter="textBookAdd"/>
+                    <#button name="修改" icon="&#xe642;" filter="textBookChange"/>
+                    <#button name="删除" icon="&#xe640;" filter="textBookDelete"/>
+                </div>
+            </form>
+            <table id="textBookTable" class="layui-table">
+            </table>
+            <div id="textBookPage"></div>
         </div>
     </div>
-</div>
-<script src="${ctxPath}/static/modular/base/textBook/textBook.js"></script>
+    <script src="${ctxPath}/static/modular/base/textBook/textBook.js"></script>
+</section>
 @}

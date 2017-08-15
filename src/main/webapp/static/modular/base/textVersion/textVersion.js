@@ -1,99 +1,96 @@
-/**
- * 教材版本管理管理初始化
- */
-var TextVersion = {
-    id: "TextVersionTable",	//表格id
-    seItem: null,		//选中的条目
-    table: null,
-    layerIndex: -1
-};
+layui.use(['form','jquery','laytable'],function () {
+    window.jQuery = window.$ = layui.jquery;
+    var layer = layui.layer,
+        form = layui.form();
 
-/**
- * 初始化表格的列
- */
-TextVersion.initColumn = function () {
-    return [
-        {field: 'selectItem', radio: true},
-        {title: 'id', field: 'id', visible: true, align: 'center', valign: 'middle'},
-        {title: '版本名称', field: 'name', align: 'center', valign: 'middle', sortable: true},
-        {title: '状态', field: 'status', align: 'center', valign: 'middle', sortable: true}
-    ];
-};
+    var TextVersion = {
+        table:"textVersionTable",
+        page:"textVersionPage",
+        nums:20,
+        seItem:null,
+        layerIndex : -1
+    };
 
-/**
- * 检查是否选中
- */
-TextVersion.check = function () {
-    var selected = $('#' + this.id).bootstrapTable('getSelections');
-    if(selected.length == 0){
-        Feng.info("请先选中表格中的某一记录！");
-        return false;
-    }else{
-        TextVersion.seItem = selected[0];
-        return true;
-    }
-};
+    //初始化表格列
+    TextVersion.initColumn =function () {
+        var columns = [
+            {name:'id',field: 'id'},
+            {name:'教材版本名称',field: 'name'},
+            {name:'状态',field: 'status'}]
+        return columns;
+    };
 
-/**
- * 点击添加教材版本管理
- */
-TextVersion.openAddTextVersion = function () {
-    var index = layer.open({
-        type: 2,
-        title: '添加教材版本管理',
-        area: ['800px', '420px'], //宽高
-        fix: false, //不固定
-        maxmin: true,
-        content: Feng.ctxPath + '/textVersion/textVersion_add'
+
+
+    var defaultColumn = TextVersion.initColumn();
+
+    var laytable = layui.laytable({
+        table:TextVersion.table,
+        page:TextVersion.page,
+        nums:TextVersion.nums,
+        columns:defaultColumn,
+        ajax:{
+            url:'/textVersion/list',
+            type:'GET'
+        }
     });
-    this.layerIndex = index;
-};
+    laytable.getTable();
 
-/**
- * 打开查看教材版本管理详情
- */
-TextVersion.openTextVersionDetail = function () {
-    if (this.check()) {
+    //检查是否选中
+    TextVersion.check = function () {
+        var selected = laytable.getSelectItem();
+        if (selected== null) {
+            layer.msg("请选中一项");
+            return false;
+        } else {
+            TextVersion.seItem = selected;
+            return true;
+        }
+    };
+
+
+    form.on('submit(textVersionAdd)',function () {
         var index = layer.open({
             type: 2,
-            title: '教材版本管理详情',
-            area: ['800px', '420px'], //宽高
+            title: '添加菜单',
+            area: ['830px', '450px'], //宽高
             fix: false, //不固定
             maxmin: true,
-            content: Feng.ctxPath + '/textVersion/textVersion_update/' + TextVersion.seItem.id
+            content:'/textVersion/textVersion_add'
         });
-        this.layerIndex = index;
-    }
-};
+        TextVersion.layerIndex = index;
+    })
 
-/**
- * 删除教材版本管理
- */
-TextVersion.delete = function () {
-    if (this.check()) {
-        var ajax = new $ax(Feng.ctxPath + "/textVersion/delete", function (data) {
-            Feng.success("删除成功!");
-            TextVersion.table.refresh();
-        }, function (data) {
-            Feng.error("删除失败!" + data.responseJSON.message + "!");
-        });
-        ajax.set("textVersionId",this.seItem.id);
-        ajax.start();
-    }
-};
+    form.on('submit(textVersionChange)',function () {
+        if (TextVersion.check()) {
+            var index = layer.open({
+                type: 2,
+                title: '修改菜单',
+                area: ['800px', '450px'], //宽高
+                fix: false, //不固定
+                maxmin: true,
+                content: '/textVersion/textVersion_update/' + TextVersion.seItem.id
+            });
+            TextVersion.layerIndex = index;
+        }
+    })
 
-/**
- * 查询教材版本管理列表
- */
-TextVersion.search = function () {
-    var queryData = {};
-    queryData['condition'] = $("#condition").val();
-    TextVersion.table.refresh({query: queryData});
-};
+    form.on('submit(textVersionDelete)',function () {
+        if (TextVersion.check()) {
+            layer.confirm("是否刪除学科?", function (index) {
+                $.ajax({
+                    url:'/textVersion/delete',
+                    data:{textVersionId:TextVersion.seItem.id},
+                    success:function (data) {
+                        layer.msg("删除成功！");
+                        TextVersion.seItem = null;
+                        laytable.refresh();
+                    }
+                });
 
-$(function () {
-    var defaultColunms = TextVersion.initColumn();
-    var table = new BSTable(TextVersion.id, "/textVersion/list", defaultColunms);
-    table.setPaginationType("client");
-    TextVersion.table = table.init();
+                layer.close(index);
+            });
+        }
+    })
+
 });

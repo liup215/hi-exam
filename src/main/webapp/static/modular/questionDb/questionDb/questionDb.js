@@ -1,106 +1,103 @@
-/**
- * 题库管理管理初始化
- */
-var QuestionDb = {
-    id: "QuestionDbTable",	//表格id
-    seItem: null,		//选中的条目
-    table: null,
-    layerIndex: -1
-};
+layui.use(['form','jquery','laytable'],function () {
+    window.jQuery = window.$ = layui.jquery;
+    var layer = layui.layer,
+        form = layui.form();
 
-/**
- * 初始化表格的列
- */
-QuestionDb.initColumn = function () {
-    return [
-        {field: 'selectItem', radio: true},
-        {title: 'id', field: 'id', visible: true, align: 'center', valign: 'middle'},
-        {title: 'logo', field: 'logo', align: 'center', valign: 'middle', sortable: true},
-        {title: '题库名称', field: 'name', align: 'center', valign: 'middle', sortable: true},
-        {title: '学段', field: 'gradeLevel', visible: true, align: 'center', valign: 'middle'},
-        {title: '学科', field: 'subject', align: 'center', valign: 'middle', sortable: true},
-        {title: '创建人', field: 'poster', align: 'center', valign: 'middle', sortable: true},
-        {title: '创建时间', field: 'cDate', align: 'center', valign: 'middle', sortable: true},
-        {title: '上次更新人', field: 'lastModifyor', visible: true, align: 'center', valign: 'middle'},
-        {title: '上次跟新时间', field: 'lastModifyDate', align: 'center', valign: 'middle', sortable: true},
-        {title: '状态', field: 'status', align: 'center', valign: 'middle', sortable: true}
-    ];
-};
+    var QuestionDb = {
+        table:"questionDbTable",
+        page:"questionDbPage",
+        nums:20,
+        seItem:null,
+        layerIndex : -1
+    };
 
-/**
- * 检查是否选中
- */
-QuestionDb.check = function () {
-    var selected = $('#' + this.id).bootstrapTable('getSelections');
-    if(selected.length == 0){
-        Feng.info("请先选中表格中的某一记录！");
-        return false;
-    }else{
-        QuestionDb.seItem = selected[0];
-        return true;
-    }
-};
+    //初始化表格列
+    QuestionDb.initColumn =function () {
+        var columns = [
+            {name: 'id', field: 'id'},
+            {name: 'logo', field: 'logo'},
+            {name: '题库名称', field: 'name'},
+            {name: '学段', field: 'gradeLevel'},
+            {name: '学科', field: 'subject'},
+            {name: '创建人', field: 'poster'},
+            {name: '创建时间', field: 'cDate'},
+            {name: '上次更新人', field: 'lastModifyor'},
+            {name: '上次跟新时间', field: 'lastModifyDate'},
+            {name: '状态', field: 'status'}];
+        return columns;
+    };
 
-/**
- * 点击添加题库管理
- */
-QuestionDb.openAddQuestionDb = function () {
-    var index = layer.open({
-        type: 2,
-        title: '添加题库管理',
-        area: ['800px', '420px'], //宽高
-        fix: false, //不固定
-        maxmin: true,
-        content: Feng.ctxPath + '/questionDb/questionDb_add'
+
+
+    var defaultColumn = QuestionDb.initColumn();
+
+    var laytable = layui.laytable({
+        table:QuestionDb.table,
+        page:QuestionDb.page,
+        nums:QuestionDb.nums,
+        columns:defaultColumn,
+        ajax:{
+            url:'/questionDb/list',
+            type:'GET'
+        }
     });
-    this.layerIndex = index;
-};
+    laytable.getTable();
 
-/**
- * 打开查看题库管理详情
- */
-QuestionDb.openQuestionDbDetail = function () {
-    if (this.check()) {
+    //检查是否选中
+    QuestionDb.check = function () {
+        var selected = laytable.getSelectItem();
+        if (selected== null) {
+            layer.msg("请选中一项");
+            return false;
+        } else {
+            QuestionDb.seItem = selected;
+            return true;
+        }
+    };
+
+
+    form.on('submit(questionDbAdd)',function () {
         var index = layer.open({
             type: 2,
-            title: '题库管理详情',
-            area: ['800px', '420px'], //宽高
+            title: '添加菜单',
+            area: ['830px', '450px'], //宽高
             fix: false, //不固定
             maxmin: true,
-            content: Feng.ctxPath + '/questionDb/questionDb_update/' + QuestionDb.seItem.id
+            content:'/questionDb/questionDb_add'
         });
-        this.layerIndex = index;
-    }
-};
+        QuestionDb.layerIndex = index;
+    })
 
-/**
- * 删除题库管理
- */
-QuestionDb.delete = function () {
-    if (this.check()) {
-        var ajax = new $ax(Feng.ctxPath + "/questionDb/delete", function (data) {
-            Feng.success("删除成功!");
-            QuestionDb.table.refresh();
-        }, function (data) {
-            Feng.error("删除失败!" + data.responseJSON.message + "!");
-        });
-        ajax.set("questionDbId",this.seItem.id);
-        ajax.start();
-    }
-};
+    form.on('submit(questionDbChange)',function () {
+        if (QuestionDb.check()) {
+            var index = layer.open({
+                type: 2,
+                title: '修改菜单',
+                area: ['800px', '450px'], //宽高
+                fix: false, //不固定
+                maxmin: true,
+                content: '/questionDb/questionDb_update/' + QuestionDb.seItem.id
+            });
+            QuestionDb.layerIndex = index;
+        }
+    })
 
-/**
- * 查询题库管理列表
- */
-QuestionDb.search = function () {
-    var queryData = {};
-    queryData['condition'] = $("#condition").val();
-    QuestionDb.table.refresh({query: queryData});
-};
+    form.on('submit(questionDbDelete)',function () {
+        if (QuestionDb.check()) {
+            layer.confirm("是否刪除学科?", function (index) {
+                $.ajax({
+                    url:'/questionDb/delete',
+                    data:{questionDbId:QuestionDb.seItem.id},
+                    success:function (data) {
+                        layer.msg("删除成功！");
+                        QuestionDb.seItem = null;
+                        laytable.refresh();
+                    }
+                });
 
-$(function () {
-    var defaultColunms = QuestionDb.initColumn();
-    var table = new BSTable(QuestionDb.id, "/questionDb/list", defaultColunms);
-    table.setPaginationType("client");
-    QuestionDb.table = table.init();
+                layer.close(index);
+            });
+        }
+    })
+
 });

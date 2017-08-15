@@ -11,6 +11,7 @@ import com.hidear.exam.modular.base.model.Subject;
 import com.hidear.exam.modular.base.status.GradeLevel;
 import com.hidear.exam.modular.questionDb.dao.QuestionDBRepository;
 import com.hidear.exam.modular.questionDb.model.QuestionDB;
+import com.hidear.exam.modular.questionDb.status.QuestionDBStatus;
 import com.hidear.exam.modular.questionDb.wrapper.QuestionDBWrapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,6 +63,9 @@ public class QuestionDbController {
         model.addAttribute("gradeLevels",gradeLevels);
         model.addAttribute("subjects",subjects);
 
+        QuestionDBStatus[] statuses = QuestionDBStatus.values();
+        model.addAttribute("statuses",statuses);
+
         return PREFIX + "questionDb_add.html";
     }
 
@@ -82,6 +86,9 @@ public class QuestionDbController {
         GradeLevel[] gradeLevels = GradeLevel.values();
         model.addAttribute("gradeLevels",gradeLevels);
         model.addAttribute("subjects",subjects);
+
+        QuestionDBStatus[] statuses = QuestionDBStatus.values();
+        model.addAttribute("statuses",statuses);
 
         return PREFIX + "questionDb_edit.html";
     }

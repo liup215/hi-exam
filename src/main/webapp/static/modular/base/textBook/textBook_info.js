@@ -1,92 +1,82 @@
-/**
- * 初始化教材管理详情对话框
- */
-var TextBookInfoDlg = {
-    textBookInfoData : {}
-};
+layui.use(['jquery','form','layer'],function () {
+    window.jQuery = window.$ = layui.jquery;
+    var form = layui.form();
+    var layer = layui.layer;
 
-/**
- * 清除数据
- */
-TextBookInfoDlg.clearData = function() {
-    this.textBookInfoData = {};
-}
+    var TextBookInfoDlg = {
+        textBookInfoData:{}
+    }
 
-/**
- * 设置对话框中的数据
- *
- * @param key 数据的名称
- * @param val 数据的具体值
- */
-TextBookInfoDlg.set = function(key, val) {
-    this.textBookInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
-    return this;
-}
+    /**
+     * 关闭弹窗
+     */
+    TextBookInfoDlg.close = function () {
+        var index = parent.layer.getFrameIndex(window.name);
+        parent.layer.close(index);
+    }
 
-/**
- * 设置对话框中的数据
- *
- * @param key 数据的名称
- * @param val 数据的具体值
- */
-TextBookInfoDlg.get = function(key) {
-    return $("#" + key).val();
-}
+    /**
+     * 清除数据
+     */
+    TextBookInfoDlg.clearData = function () {
+        this.textBookInfoData = {};
+    };
 
-/**
- * 关闭此对话框
- */
-TextBookInfoDlg.close = function() {
-    parent.layer.close(window.parent.TextBook.layerIndex);
-}
+    TextBookInfoDlg.set = function (key, value) {
+        this.textBookInfoData[key] = (typeof value == "undefined") ? $("#" + key).val() : value;
+        return this;
+    }
 
-/**
- * 收集数据
- */
-TextBookInfoDlg.collectData = function() {
-    this.set('id').set('logo').set('name').set('gradeLevel').set('subject').set("status");
-}
+    /**
+     * 设置对话框中的数据
+     *
+     * @param key 数据的名称
+     * @param val 数据的具体值
+     */
+    TextBookInfoDlg.get = function (key) {
+        return $("#" + key).val();
+    }
 
-/**
- * 提交添加
- */
-TextBookInfoDlg.addSubmit = function() {
+    /**
+     * 收集数据
+     */
+    TextBookInfoDlg.collectData = function () {
+        this.set('id').set('name').set('logo').set('gradeLevel').set('subject').set('status');
+    }
 
-    this.clearData();
-    this.collectData();
+    form.on('submit(addSubmit)',function () {
+        TextBookInfoDlg.clearData();
+        TextBookInfoDlg.collectData();
 
-    //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/textBook/add", function(data){
-        Feng.success("添加成功!");
-        window.parent.TextBook.table.refresh();
-        TextBookInfoDlg.close();
-    },function(data){
-        Feng.error("添加失败!" + data.responseJSON.message + "!");
+        $.ajax({
+            url:'/textBook/add',
+            data:TextBookInfoDlg.textBookInfoData,
+            type:'POST',
+            success:function(data){
+                layer.msg("添加成功");
+                parent.location.reload();
+            },
+            error:function () {
+                layer.msg("数据提交错误");
+            }
+        })
     });
-    ajax.set(this.textBookInfoData);
-    ajax.start();
-}
 
-/**
- * 提交修改
- */
-TextBookInfoDlg.editSubmit = function() {
+    form.on('submit(editSubmit)',function () {
+        TextBookInfoDlg.clearData();
+        TextBookInfoDlg.collectData();
 
-    this.clearData();
-    this.collectData();
-
-    //提交信息
-    var ajax = new $ax(Feng.ctxPath + "/textBook/update", function(data){
-        Feng.success("修改成功!");
-        window.parent.TextBook.table.refresh();
-        TextBookInfoDlg.close();
-    },function(data){
-        Feng.error("修改失败!" + data.responseJSON.message + "!");
-    });
-    ajax.set(this.textBookInfoData);
-    ajax.start();
-}
-
-$(function() {
-
+        $.ajax({
+            url:'/textBook/update',
+            data:TextBookInfoDlg.textBookInfoData,
+            type:'POST',
+            success:function(data){
+                layer.msg("添加成功");
+                parent.location.reload();
+            },
+            error:function () {
+                layer.msg("数据提交错误");
+            }
+        })
+    })
 });

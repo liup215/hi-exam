@@ -1,35 +1,40 @@
 @layout("/common/_container.html"){
-<div class="row">
-    <div class="col-sm-12">
-        <div class="ibox float-e-margins">
-            <div class="ibox-title">
-                <h5>题库管理管理</h5>
-            </div>
-            <div class="ibox-content">
-                <div class="row row-lg">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <#NameCon id="condition" name="名称" />
-                            </div>
-                            <div class="col-sm-3">
-                                <#button name="搜索" icon="fa-search" clickFun="QuestionDb.search()"/>
-                            </div>
+<section class="larry-grid">
+    <div class="larry-personal">
+        <header class="larry-personal-tit">
+            <span>题库管理</span>
+        </header>
+        <div class="larry-personal-body clearfix">
+            <form class="layui-form" layui-filter="menuOperation">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#NameCon id="gradeName" name="学科名称" />
                         </div>
-                        <div class="hidden-xs" id="QuestionDbTableToolbar" role="group">
-                                <#button name="添加" icon="fa-plus" clickFun="QuestionDb.openAddQuestionDb()"/>
-
-                                <#button name="修改" icon="fa-plus" clickFun="QuestionDb.openQuestionDbDetail()" space="true"/>
-
-                                <#button name="删除" icon="fa-plus" clickFun="QuestionDb.delete()" space="true"/>
-
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#button name="搜索" filter="questionDbSearch"/>
                         </div>
-                        <#table id="QuestionDbTable"/>
+                    </div>
+                    <div class="layui-sm-3">
+
                     </div>
                 </div>
-            </div>
+            </form>
+            <form class="layui-form">
+                <div id="menuTableToolbar" class="layui-form-item layui-btn-group">
+                    <#button name="添加" icon="&#xe654;" filter="questionDbAdd"/>
+                    <#button name="修改" icon="&#xe642;" filter="questionDbChange"/>
+                    <#button name="删除" icon="&#xe640;" filter="questionDbDelete"/>
+                </div>
+            </form>
+            <table id="questionDbTable" class="layui-table">
+            </table>
+            <div id="questionDbPage"></div>
         </div>
     </div>
-</div>
-<script src="${ctxPath}/static/modular/questionDb/questionDb/questionDb.js"></script>
+    <script src="${ctxPath}/static/modular/questionDb/questionDb/questionDb.js"></script>
+</section>
+
 @}

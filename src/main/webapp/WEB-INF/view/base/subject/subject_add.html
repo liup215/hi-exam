@@ -1,17 +1,9 @@
 @layout("/common/_container.html"){
 
-
 <form class="layui-form" id="menuInfoForm">
     <input type="hidden" id="id" value="" />
     <div class="layui-form-item">
-        <#input id="name" name="年级名称" verify="required" underline="true" />
-    </div>
-    <div class="layui-form-item">
-        <#select id="level" name="学段">
-            @for( level in levels){
-            <option value="${level.code}">${level.name}</option>
-            @}
-        </#select>
+        <#input id="name" name="学科名称" verify="required" underline="true" />
     </div>
     <div class="layui-form-item">
         <#select id="status" name="状态">

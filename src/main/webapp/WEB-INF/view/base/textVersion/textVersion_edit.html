@@ -1,33 +1,30 @@
 @layout("/common/_container.html"){
-<div class="ibox float-e-margins">
-    <div class="ibox-content">
-        <div class="form-horizontal">
 
-            <input type="hidden" id="id" value="${textVersion.id}">
-
-            <div class="row">
-                <div class="col-sm-6 b-r">
-                    <#input id="name" name="name" underline="true" value="${textVersion.name}"/>
-                    <#select id="status" name="状态">
-                        <option value="1">启用</option>
-                        <option value="0">禁用</option>
-                    </#select>
-                </div>
-
-                <div class="col-sm-6">
-
-                </div>
-            </div>
-
-            <div class="row btn-group-m-t">
-                <div class="col-sm-10">
-                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="TextVersionInfoDlg.editSubmit()"/>
-                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="TextVersionInfoDlg.close()"/>
-                </div>
-            </div>
-        </div>
-
+<form class="layui-form" id="menuInfoForm">
+    <input type="hidden" id="id" value="${textVersion.id}" />
+    <div class="layui-form-item">
+        <#input id="name" name="年级名称" verify="required" underline="true" value="${textVersion.name}" />
     </div>
-</div>
+
+    <div class="layui-form-item">
+        <#select id="status" name="状态">
+            @for( status in statuses){
+            <option value="${status.code}"
+                    @if(textVersion.status==status.code){
+                    selected="selected"
+                    @}
+            >${status.status}</option>
+            @}
+        </#select>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <#button name="提交" id="ensure" filter="editSubmit"/>
+            <#button name="取消" id="cancel" filter="close"/>
+        </div>
+    </div>
+</form>
+
 <script src="${ctxPath}/static/modular/base/textVersion/textVersion_info.js"></script>
 @}
