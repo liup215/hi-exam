@@ -25,25 +25,29 @@
                 <dl class="layui-nav-child">
                     @for(subTitle in title.children){
                     @if(tool.isEmpty(subTitle.children)){
-                    <dd>
-                        <a href="#" data-url="${ctxPath}${subTitle.url}">
-                            <span>
-                                ${subTitle.name}
-                            </span>
-                        </a>
-                    </dd>
+                        @if(subTitle.ismenu==1){
+                        <dd>
+                            <a href="#" data-url="${ctxPath}${subTitle.url}">
+                                    <span>
+                                        ${subTitle.name}
+                                    </span>
+                            </a>
+                        </dd>
+                        @}
                     @}else{
                     <dd>
                         <a href="#">${subTitle.name} <span class="layui-nav-more"></span></a>
                         <dl class="nav nav-third-level">
                             @for(thirdTitle in subTitle.children){
-                            <dd>
-                                <a href="#" data-url="${ctxPath}${thirdTitle.url}">
-                                    <span>
-                                        ${thirdTitle.name}
-                                    </span>
-                                </a>
-                            </dd>
+                                @if(thirdTitle.ismenu==1){
+                                <dd>
+                                    <a href="#" data-url="${ctxPath}${thirdTitle.url}">
+                                        <span>
+                                            ${thirdTitle.name}
+                                        </span>
+                                    </a>
+                                </dd>
+                                @}
                             @}
                         </dl>
                     </dd>

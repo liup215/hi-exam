@@ -96,4 +96,10 @@ layui.use(['form','jquery','laytable'],function () {
         }
     })
 
+    form.on('submit(textBookChapter)',function () {
+        if(TextBook.check()){
+            window.location.href = '/chapter/'+ TextBook.seItem.id;
+        }
+    })
+
 });
