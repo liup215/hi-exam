@@ -1,8 +1,10 @@
 package com.hidear.exam.modular.base.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.alibaba.fastjson.JSONObject;
 import com.hidear.exam.common.exception.BizExceptionEnum;
 import com.hidear.exam.common.exception.BussinessException;
 import com.hidear.exam.core.support.BeanKit;
@@ -54,8 +56,13 @@ public class GradeController {
     public Object list(@RequestParam(required = false) String gradeName, @RequestParam(required = false) Integer level) {
 
         List<Map<String,Object>> grades = gradeService.selectGrades(null,null);
+        Map<String,Object> list = new HashMap<>();
+        list.put("code",0);
+        list.put("msg","");
+        list.put("count",grades.size());
+        list.put("data",grades);
 
-        return (new GradeWrapper(grades)).warp();
+        return list;
     }
 
     @RequestMapping(value="/grade_add",method = RequestMethod.GET)

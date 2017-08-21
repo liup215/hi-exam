@@ -1,7 +1,8 @@
 layui.use(['form','jquery','table'],function () {
     window.jQuery = window.$ = layui.jquery;
     var layer = layui.layer,
-        form = layui.form;
+        form = layui.form,
+        table = layui.table;
 
     var Grade = {
         table:"gradeTable",
@@ -21,11 +22,15 @@ layui.use(['form','jquery','table'],function () {
         return columns;
     };
 
-    var gradeTable = layui.table;
-    var tableIns = gradeTable.render({
+    var gradeTable = table.render({
         elem:"#gradeTable",
-        cols:Grade.initColumn(),
-        url:"/grade/list"
+        cols:[[
+            {title:'id',field: 'id',width:200},
+            {title:'年级名称',field: 'name',width:200},
+            {title:'学段',field: 'level',width:200},
+            {title:'状态',field: 'status',width:200}]],
+        url:"/grade/list",
+        page:true
     });
 
     //检查是否选中
@@ -76,7 +81,7 @@ layui.use(['form','jquery','table'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         Grade.seItem = null;
-                        laytable.refresh();
+                        tableIns.refresh();
                     }
                 });
 
