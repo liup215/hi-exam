@@ -6,7 +6,7 @@ layui.config({
      */
     window.jQuery = window.$ = layui.jquery;
     var HiExam = layui.hiexam;
-    var form = layui.form();
+    var form = layui.form;
     var layer = layui.layer;
 
     /**

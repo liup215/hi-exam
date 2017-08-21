@@ -1,7 +1,7 @@
-layui.use(['form','jquery','laytable'],function () {
+layui.use(['form','jquery','table'],function () {
     window.jQuery = window.$ = layui.jquery;
     var layer = layui.layer,
-        form = layui.form();
+        form = layui.form;
 
     var Grade = {
         table:"gradeTable",
@@ -13,29 +13,20 @@ layui.use(['form','jquery','laytable'],function () {
 
     //初始化表格列
     Grade.initColumn =function () {
-        var columns = [
-        {name:'id',field: 'id'},
-        {name:'年级名称',field: 'name'},
-        {name:'学段',field: 'level'},
-        {name:'状态',field: 'status'}]
+        var columns = [[
+        {title:'id',field: 'id'},
+        {title:'年级名称',field: 'name'},
+        {title:'学段',field: 'level'},
+        {title:'状态',field: 'status'}]]
         return columns;
     };
 
-
-
-    var defaultColumn = Grade.initColumn();
-
-    var laytable = layui.laytable({
-        table:Grade.table,
-        page:Grade.page,
-        nums:Grade.nums,
-        columns:defaultColumn,
-        ajax:{
-            url:'/grade/list',
-            type:'GET'
-        }
+    var gradeTable = layui.table;
+    var tableIns = gradeTable.render({
+        elem:"#gradeTable",
+        cols:Grade.initColumn(),
+        url:"/grade/list"
     });
-    laytable.getTable();
 
     //检查是否选中
     Grade.check = function () {

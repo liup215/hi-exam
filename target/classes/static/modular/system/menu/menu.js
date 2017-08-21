@@ -2,7 +2,7 @@ layui.config({
     base:'/static/js/'
 }).use(['form','tree','jquery','hiexam'],function () {
     window.jQuery=window.$=layui.jquery;
-    var form = layui.form();
+    var form = layui.form;
     var layer = layui.layer;
     var HiExam = layui.hiexam;
 

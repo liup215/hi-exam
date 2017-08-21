@@ -1,7 +1,7 @@
 layui.use(['form','jquery','laytable'],function () {
     window.jQuery = window.$ = layui.jquery;
     var layer = layui.layer,
-        form = layui.form();
+        form = layui.form;
 
     var Subject = {
         table:"subjectTable",
