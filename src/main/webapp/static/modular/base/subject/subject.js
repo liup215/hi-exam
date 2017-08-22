@@ -1,49 +1,44 @@
-layui.use(['form','jquery','laytable'],function () {
+layui.use(['form','jquery','table'],function () {
     window.jQuery = window.$ = layui.jquery;
     var layer = layui.layer,
-        form = layui.form;
+        form = layui.form,
+        table = layui.table;
 
     var Subject = {
-        table:"subjectTable",
-        page:"subjectPage",
-        nums:20,
+        elem:"subjectTable",
         seItem:null,
         layerIndex : -1
     };
 
     //初始化表格列
     Subject.initColumn =function () {
-        var columns = [
-            {name:'id',field: 'id'},
-            {name:'学科名称',field: 'name'},
-            {name:'状态',field: 'status'}]
+        var columns = [[
+            {checkbox:true},
+            {title:'id',field: 'id'},
+            {title:'学科名称',field: 'name'},
+            {title:'状态',field: 'status'}]]
         return columns;
     };
 
-
-
-    var defaultColumn = Subject.initColumn();
-
-    var laytable = layui.laytable({
-        table:Subject.table,
-        page:Subject.page,
-        nums:Subject.nums,
-        columns:defaultColumn,
-        ajax:{
-            url:'/subject/list',
-            type:'GET'
-        }
-    });
-    laytable.getTable();
+    var subjectTable = table.render({
+        elem:"#"+Subject.elem,
+        cols:Subject.initColumn(),
+        page:true,
+        id:Subject.elem,
+        url:"/subject/list"
+    })
 
     //检查是否选中
     Subject.check = function () {
-        var selected = laytable.getSelectItem();
-        if (selected== null) {
+        var checkStatus = table.checkStatus(Subject.elem);
+        var selected = checkStatus.data;
+        if (selected.length== 0) {
             layer.msg("请选中一项");
             return false;
-        } else {
-            Subject.seItem = selected;
+        } else if(selected.length>1){
+            layer.msg("请不要选择多项")
+        }else{
+            Subject.seItem = selected[0];
             return true;
         }
     };
@@ -84,7 +79,7 @@ layui.use(['form','jquery','laytable'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         Subject.seItem = null;
-                        laytable.refresh();
+                        subjectTable.refresh();
                     }
                 });
 

@@ -60,7 +60,7 @@ public class GradeController {
         list.put("code",0);
         list.put("msg","");
         list.put("count",grades.size());
-        list.put("data",grades);
+        list.put("data",(new GradeWrapper(grades)).warp());
 
         return list;
     }

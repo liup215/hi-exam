@@ -12,6 +12,7 @@ import com.hidear.exam.modular.base.model.Subject;
 import com.hidear.exam.modular.base.status.GradeLevel;
 import com.hidear.exam.modular.base.status.GradeStatus;
 import com.hidear.exam.modular.base.wrapper.SubjectWrapper;
+import org.apache.commons.collections.map.HashedMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -87,13 +88,18 @@ public class SubjectController {
     @ResponseBody
     public Object list(@RequestParam(required = false) String gradeName, @RequestParam(required = false) Integer level) {
         List<Subject> subjects = subjectRepository.findAll();
-        List<Map<String,Object>> maps = new ArrayList<>();
+        List<Map<String,Object>> data = new ArrayList<>();
+        Map<String,Object> maps = new HashMap<>();
         for(Subject subject:subjects){
             Map<String,Object> subjectMap = BeanKit.beanToMap(subject);
-            maps.add(subjectMap);
+            data.add(subjectMap);
         }
+        maps.put("code",0);
+        maps.put("msg","");
+        maps.put("count",subjects.size());
+        maps.put("data",(new SubjectWrapper(data)).warp());
 
-        return (new SubjectWrapper(maps)).warp();
+        return maps;
     }
 
     /**

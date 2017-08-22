@@ -6,8 +6,6 @@ layui.use(['form','jquery','table'],function () {
 
     var Grade = {
         table:"gradeTable",
-        page:"gradePage",
-        nums:20,
         seItem:null,
         layerIndex : -1
     };
@@ -15,32 +13,33 @@ layui.use(['form','jquery','table'],function () {
     //初始化表格列
     Grade.initColumn =function () {
         var columns = [[
-        {title:'id',field: 'id'},
-        {title:'年级名称',field: 'name'},
-        {title:'学段',field: 'level'},
-        {title:'状态',field: 'status'}]]
+            {checkbox:true},
+        {title:'id',field: 'id',width:100},
+        {title:'年级名称',field: 'name',width:150},
+        {title:'学段',field: 'level',width:200},
+        {title:'状态',field: 'status',width:200}]]
         return columns;
     };
 
     var gradeTable = table.render({
-        elem:"#gradeTable",
-        cols:[[
-            {title:'id',field: 'id',width:200},
-            {title:'年级名称',field: 'name',width:200},
-            {title:'学段',field: 'level',width:200},
-            {title:'状态',field: 'status',width:200}]],
+        elem:"#"+Grade.elem,
+        cols:Grade.initColumn(),
         url:"/grade/list",
-        page:true
+        page:true,
+        id:Grade.elem
     });
 
     //检查是否选中
     Grade.check = function () {
-        var selected = laytable.getSelectItem();
-        if (selected== null) {
+        var checkStatus = table.checkStatus(Grade.elem);
+        var selected = checkStatus.data;
+        if (selected.length== 0) {
             layer.msg("请选中一项");
             return false;
-        } else {
-            Grade.seItem = selected;
+        } else if(selected.length>1){
+            layer.msg("请不要选择多项")
+        }else{
+            Grade.seItem = selected[0];
             return true;
         }
     };
@@ -81,7 +80,7 @@ layui.use(['form','jquery','table'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         Grade.seItem = null;
-                        tableIns.refresh();
+                        gradeTable.refresh();
                     }
                 });
 
