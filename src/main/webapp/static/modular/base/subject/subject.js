@@ -14,9 +14,9 @@ layui.use(['form','jquery','table'],function () {
     Subject.initColumn =function () {
         var columns = [[
             {checkbox:true},
-            {title:'id',field: 'id'},
-            {title:'学科名称',field: 'name'},
-            {title:'状态',field: 'status'}]]
+            {title:'id',field: 'id',width:50},
+            {title:'学科名称',field: 'name',width:100},
+            {title:'状态',field: 'status',width:100}]]
         return columns;
     };
 

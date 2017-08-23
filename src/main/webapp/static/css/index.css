@@ -1,0 +1,96 @@
+.header {
+    background-color: #393d49;
+    height: 65px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.header .main {
+    margin: 0 auto;
+    min-height: 0;
+    position: relative;
+}
+.logo {
+    background: rgba(0, 0, 0, 0) no-repeat scroll 0 0;
+    height: 37px;
+    left: 0;
+    position: absolute;
+    text-indent: -666px;
+    top: 13px;
+    width: 135px;
+}
+.nav {
+    left: 220px;
+    position: absolute;
+    top: 18px;
+}
+.nav a {
+    color: #999;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.nav a i {
+    font-size: 26px;
+    padding-right: 8px;
+    position: relative;
+    top: 5px;
+}
+.nav a .icon-shouye, .nav a .icon-shezhi {
+    top: 2px;
+}
+.nav a:hover {
+    transition: all 0.4s ease 0s;
+}
+.nav a:hover, .nav .nav-this {
+    color: #fff;
+}
+.nav-user {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.nav-user span, .nav-user .unlogin, .out-login, .avatar, .avatar *, .nav-user .nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-user .unlogin {
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.nav-user span {
+    position: relative;
+}
+.nav-user span a {
+    color: #a9b7b7;
+    padding: 0 10px;
+}
+.nav-user span a:hover {
+    color: #fff;
+}
+.nav-user .nav {
+    left: auto;
+    margin-left: 30px;
+    position: relative;
+    right: 0;
+    top: -2px;
+}
+.nav-user .nav a {
+    padding: 0 10px;
+}
+.nav-user .unlogin i {
+    margin-bottom: 12px;
+}
+.out-login {
+    margin-left: 20px;
+    text-align: center;
+}
+.out-login a {
+    color: #a9b7b7;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.out-login a:hover {
+    color: #fff;
+}
