@@ -5,7 +5,7 @@ layui.use(['form','jquery','table'],function () {
         table = layui.table;
 
     var Grade = {
-        table:"gradeTable",
+        elem:"gradeTable",
         seItem:null,
         layerIndex : -1
     };

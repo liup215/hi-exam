@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.validation.Valid;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -100,14 +101,19 @@ public class TextBookController {
     @ResponseBody
     public Object list(String condition) {
 
-        List<Map<String,Object>> maps = new ArrayList<>();
+        List<Map<String,Object>> textBookList = new ArrayList<>();
         List<TextBook> books = textBookRepository.findAll();
         for(TextBook book : books){
             Map<String,Object> map = BeanKit.beanToMap(book);
-            maps.add(map);
+            textBookList.add(map);
         }
 
-        return (new TextBookWrapper(maps)).warp();
+        Map<String,Object> maps = new HashMap();
+        maps.put("code",0);
+        maps.put("msg","");
+        maps.put("data",(new TextBookWrapper(textBookList)).warp());
+        maps.put("count",textBookList.size());
+        return maps;
     }
 
     /**

@@ -1,52 +1,48 @@
-layui.use(['form','jquery','laytable'],function () {
+layui.use(['form','jquery','table'],function () {
     window.jQuery = window.$ = layui.jquery;
     var layer = layui.layer,
-        form = layui.form;
+        form = layui.form,
+        table = layui.table;
 
     var TextBook = {
-        table:"textBookTable",
-        page:"textBookPage",
-        nums:20,
+        elem:"textBookTable",
         seItem:null,
         layerIndex : -1
     };
 
     //初始化表格列
     TextBook.initColumn =function () {
-        var columns = [
-            {name:'id',field: 'id'},
-            {name:'logo',field: 'logo'},
-            {name:'教材名称',field:'name'},
-            {name:'学段',field:'gradeLevel'},
-            {name:'学科',field:'subject'},
-            {name:'状态',field: 'status'}];
+        var columns = [[
+            {checkbox:true},
+            {title:'id',field: 'id',width:50},
+            {title:'logo',field: 'logo',width:100},
+            {title:'教材名称',field:'name',width:100},
+            {title:'学段',field:'gradeLevel',width:100},
+            {title:'学科',field:'subject',width:100},
+            {title:'状态',field: 'status',width:100}]];
         return columns;
     };
 
 
-
-    var defaultColumn = TextBook.initColumn();
-
-    var laytable = layui.laytable({
-        table:TextBook.table,
-        page:TextBook.page,
-        nums:TextBook.nums,
-        columns:defaultColumn,
-        ajax:{
-            url:'/textBook/list',
-            type:'GET'
-        }
+    var textBookTable = table.render({
+        elem:"#"+TextBook.elem,
+        cols:TextBook.initColumn(),
+        page:true,
+        url:"/textBook/list",
+        id:TextBook.elem
     });
-    laytable.getTable();
 
     //检查是否选中
     TextBook.check = function () {
-        var selected = laytable.getSelectItem();
-        if (selected== null) {
+        var checkStatus = table.checkStatus(TextBook.elem);
+        var selected = checkStatus.data;
+        if (selected.length== 0) {
             layer.msg("请选中一项");
             return false;
-        } else {
-            TextBook.seItem = selected;
+        } else if(selected.length>1){
+            layer.msg("请不要选择多项")
+        }else{
+            TextBook.seItem = selected[0];
             return true;
         }
     };
@@ -87,7 +83,7 @@ layui.use(['form','jquery','laytable'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         TextBook.seItem = null;
-                        laytable.refresh();
+                        textBookTable.refresh();
                     }
                 });
 

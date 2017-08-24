@@ -17,6 +17,7 @@ import org.springframework.ui.Model;
 
 import javax.validation.Valid;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -84,7 +85,13 @@ public class TextVersionController {
             textVersions.add(map);
         }
 
-        return (new TextVersionWrapper(textVersions)).warp();
+        Map<String,Object> maps = new HashMap();
+        maps.put("code",0);
+        maps.put("msg","");
+        maps.put("data",(new TextVersionWrapper(textVersions)).warp());
+        maps.put("count",textVersions.size());
+
+        return maps;
     }
 
     /**

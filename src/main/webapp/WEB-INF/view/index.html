@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="${ctxPath}/static/common/layui/css/layui.css" media="all">
     <link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/personal.css" media="all">
     <link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/common.css" media="all">
+    <link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/index.css" media="all">
     <script type="text/javascript" src="${ctxPath}/static/common/layui/layui.js"></script>
 </head>
 <body>
@@ -42,11 +43,13 @@
         </div>
     </div>
 </div>
-<div style="background-color: red">
-    @include("/common/index/_banner.html"){}
+
+    @include("/index/_banner.html"){}
 </div>
 <div class="layui-main">
-    @include("/common/index/_newvideo.html"){}
+    @include("/index/_newvideo.html"){}
+    @include("/index/_recommend.html"){}
+    @include("/index/_teacher.html"){}
 </div>
 
 <script type="text/javascript" src="${ctxPath}/static/js/index.js"></script>

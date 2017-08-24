@@ -86,7 +86,7 @@ public class SubjectController {
      */
     @RequestMapping(value = "/list")
     @ResponseBody
-    public Object list(@RequestParam(required = false) String gradeName, @RequestParam(required = false) Integer level) {
+    public Object list() {
         List<Subject> subjects = subjectRepository.findAll();
         List<Map<String,Object>> data = new ArrayList<>();
         Map<String,Object> maps = new HashMap<>();

@@ -1,49 +1,44 @@
-layui.use(['form','jquery','laytable'],function () {
+layui.use(['form','jquery','table'],function () {
     window.jQuery = window.$ = layui.jquery;
     var layer = layui.layer,
-        form = layui.form;
+        form = layui.form,
+        table = layui.table;
 
     var TextVersion = {
-        table:"textVersionTable",
-        page:"textVersionPage",
-        nums:20,
+        elem:"textVersionTable",
         seItem:null,
         layerIndex : -1
     };
 
     //初始化表格列
     TextVersion.initColumn =function () {
-        var columns = [
-            {name:'id',field: 'id'},
-            {name:'教材版本名称',field: 'name'},
-            {name:'状态',field: 'status'}]
+        var columns = [[
+            {checkbox:true},
+            {title:'id',field: 'id',width:50},
+            {title:'教材版本名称',field: 'name',width:100},
+            {title:'状态',field: 'status',width:100}]]
         return columns;
     };
 
-
-
-    var defaultColumn = TextVersion.initColumn();
-
-    var laytable = layui.laytable({
-        table:TextVersion.table,
-        page:TextVersion.page,
-        nums:TextVersion.nums,
-        columns:defaultColumn,
-        ajax:{
-            url:'/textVersion/list',
-            type:'GET'
-        }
+    var textVersionTable = table.render({
+        elem:"#"+TextVersion.elem,
+        cols:TextVersion.initColumn(),
+        url:"/textVersion/list",
+        page:true,
+        id:TextVersion.elem
     });
-    laytable.getTable();
 
     //检查是否选中
     TextVersion.check = function () {
-        var selected = laytable.getSelectItem();
-        if (selected== null) {
+        var checkStatus = table.checkStatus(TextVersion.elem);
+        var selected = checkStatus.data;
+        if (selected.length== 0) {
             layer.msg("请选中一项");
             return false;
-        } else {
-            TextVersion.seItem = selected;
+        } else if(selected.length>1){
+            layer.msg("请不要选择多项")
+        }else{
+            Subject.seItem = selected[0];
             return true;
         }
     };
@@ -84,7 +79,7 @@ layui.use(['form','jquery','laytable'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         TextVersion.seItem = null;
-                        laytable.refresh();
+                        textVersionTable.refresh()
                     }
                 });
 

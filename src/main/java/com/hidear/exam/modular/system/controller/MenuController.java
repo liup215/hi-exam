@@ -76,7 +76,7 @@ public class MenuController {
             menu.setPcode("0");
         } else {
             //设置父级菜单的code为父级菜单的id
-            menu.setPcode(String.valueOf(pMenu.getId()));
+            menu.setPcode(String.valueOf(pMenu.getCode()));
         }
 
         Map<String, Object> menuMap = BeanKit.beanToMap(menu);
