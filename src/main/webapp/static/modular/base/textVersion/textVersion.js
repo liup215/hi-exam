@@ -79,7 +79,7 @@ layui.use(['form','jquery','table'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         TextVersion.seItem = null;
-                        textVersionTable.refresh()
+                        textVersionTable.reload()
                     }
                 });
 

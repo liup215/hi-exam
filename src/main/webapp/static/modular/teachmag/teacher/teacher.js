@@ -84,7 +84,7 @@ layui.use(['form','jquery','table'],function () {
                     success:function (data) {
                         layer.msg("删除成功！");
                         Teacher.seItem = null;
-                        teacherTable.refresh();
+                        teacherTable.reload();
                     }
                 });
 
