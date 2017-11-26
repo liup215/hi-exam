@@ -23,11 +23,16 @@
             <div class="layui-logo">1214的生物微课堂</div>
             <!-- 头部区域（可配合layui已有的水平导航） -->
             <ul class="layui-nav layui-layout-left ">
-                <li class="layui-nav-item"><a href="">首页</a></li>
-                <li class="layui-nav-item"><a href="">视频</a></li>
-                <li class="layui-nav-item"><a href="">名师</a></li>
+                @for(topNavItem in topNav){
+                <li class="layui-nav-item"><a href="">${topNavItem.name}</a></li>
+                @}
             </ul>
             <ul class="layui-nav layui-layout-right">
+
+                <li class="layui-nav-item"><a href="">登录</a></li>
+                <li class="layui-nav-item"><a href="">注册</a></li>
+
+                @/*
                 <li class="layui-nav-item">
                     <a href="javascript:;">
                         <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
@@ -38,7 +43,9 @@
                         <dd><a href="">安全设置</a></dd>
                     </dl>
                 </li>
+
                 <li class="layui-nav-item"><a href="">退了</a></li>
+                @*/
             </ul>
         </div>
     </div>

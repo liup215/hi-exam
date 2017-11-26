@@ -8,8 +8,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by acer on 2017/7/21.
@@ -31,8 +35,33 @@ public class HomeController {
     }
 
     @RequestMapping("/index")
-    public String home(){
+    public String home(@RequestParam Integer userType, Model model){
+        List<Map<String,String>> topNav = new ArrayList<>();
+        Map<String,String> topNavItem = new HashMap<>();
 
+        if(userType.equals(1)){
+            for(int i = 0;i<4;i++){
+                topNavItem.put("name","教师导航" + i);
+                topNav.add(topNavItem);
+            }
+        }else if(userType.equals(2)){
+            for(int i = 0;i<4;i++){
+                topNavItem.put("name","学生导航" + i);
+                topNav.add(topNavItem);
+            }
+        }else if(userType.equals(3)){
+            for(int i = 0;i<4;i++){
+                topNavItem.put("name","家长导航" + i);
+                topNav.add(topNavItem);
+            }
+        }else{
+            for(int i = 0;i<4;i++){
+                topNavItem.put("name","游客导航" + i);
+                topNav.add(topNavItem);
+            }
+        }
+
+        model.addAttribute("topNav",topNav);
         return "/index.html";
     }
 

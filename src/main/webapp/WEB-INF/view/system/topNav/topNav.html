@@ -1,0 +1,38 @@
+@layout("/common/_container.html"){
+<section class="larry-grid">
+    <div class="larry-personal">
+        <header class="larry-personal-tit">
+            <span>顶部导航管理</span>
+        </header>
+        <div class="larry-personal-body clearfix">
+            <form class="layui-form" layui-filter="menuOperation">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#NameCon id="topNavName" name="导航名称" />
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#button name="搜索" filter="topNavSearch"/>
+                        </div>
+                    </div>
+                    <div class="layui-sm-3">
+
+                    </div>
+                </div>
+            </form>
+            <form class="layui-form">
+                <div id="menuTableToolbar" class="layui-form-item layui-btn-group">
+                    <#button name="添加" icon="&#xe654;" filter="topNavAdd"/>
+                    <#button name="修改" icon="&#xe642;" filter="topNavChange"/>
+                    <#button name="删除" icon="&#xe640;" filter="topNavDelete"/>
+                </div>
+            </form>
+            <table id="topNavTable">
+            </table>
+        </div>
+    </div>
+    <script src="${ctxPath}/static/modular/system/topNav/topNav.js"></script>
+</section>
+@}

@@ -1,0 +1,49 @@
+@layout("/common/_container.html"){
+<section class="larry-grid">
+    <div class="larry-personal">
+        <header class="larry-personal-tit">
+            <span>考点管理</span>
+        </header>
+        <div class="larry-personal-body clearfix">
+            <form class="layui-form" layui-filter="menuOperation">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#NameCon id="gradeName" name="考点名称" />
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#NameCon id="level" name="学段" />
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#NameCon id="subject" name="学科" />
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="layui-form-item">
+                            <#button name="搜索" filter="testingPointSearch"/>
+                        </div>
+                    </div>
+                    <div class="layui-sm-3">
+
+                    </div>
+                </div>
+            </form>
+            <form class="layui-form">
+                <div id="testingPointTableToolbar" class="layui-form-item layui-btn-group">
+                    @/*
+                    <#button name="添加" icon="&#xe654;" filter="testingPointAdd"/>
+                    <#button name="修改" icon="&#xe642;" filter="testingPointChange"/>
+                    <#button name="删除" icon="&#xe640;" filter="testingPointDelete"/>
+                    @*/
+                </div>
+            </form>
+            <div id="TestingPointTable"></div>
+        </div>
+    </div>
+    <script src="${ctxPath}/static/modular/base/testingPoint/testingPoint.js"></script>
+</section>
+@}
