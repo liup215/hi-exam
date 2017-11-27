@@ -49,7 +49,7 @@ layui.use(['jquery','form','layer'],function () {
         TeacherInfoDlg.collectData();
 
         $.ajax({
-            url:'/teacher/add',
+            url:'/teachermag/add',
             data:TeacherInfoDlg.teacherInfoData,
             type:'POST',
             success:function(data){
@@ -67,7 +67,7 @@ layui.use(['jquery','form','layer'],function () {
         TeacherInfoDlg.collectData();
 
         $.ajax({
-            url:'/teacher/update',
+            url:'/teachermag/update',
             data:TeacherInfoDlg.teacherInfoData,
             type:'POST',
             success:function(data){

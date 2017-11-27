@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51926341-8ca3-484a-aaec-8393bf423aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4fbe2f46-3b01-4bd4-b9ef-f823ced911d6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/4fbe2f46-3b01-4bd4-b9ef-f823ced911d6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/exam.log" afterPath="$PROJECT_DIR$/logs/exam.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/ExamApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/ExamApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/SuccessTip.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/SuccessTip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/Tip.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/Tip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/core/util/ToolUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/core/util/ToolUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/common/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/common/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/TopNavController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/TopNavController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/dao/TopNavRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/dao/TopNavRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/ITopNavService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/ITopNavService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/serviceImpl/TopNavServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/serviceImpl/TopNavServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/status/UserType.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/status/UserType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/wrapper/TopNavWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/wrapper/TopNavWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/login.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/modular/system/topNav/topNav.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/modular/system/topNav/topNav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher_info.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher_info.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/view/index.html" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/view/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherMagController.java" />
     </list>
     <ignored path="hi-exam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,95 +83,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java">
+      <file leaf-file-name="TeacherMagController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherMagController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <state relative-caret-position="276">
+              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/service/serviceImpl/TeacherServiceImpl.java">
+      <file leaf-file-name="teacher.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teachmag/teacher/teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-169">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/config/web/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="136" column="26" lean-forward="false" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+            <state relative-caret-position="254">
+              <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html">
+      <file leaf-file-name="teacher_add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teachmag/teacher/teacher_add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="-261">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
+      <file leaf-file-name="teacher.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="483">
+              <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/common/controller/HomeController.java">
+      <file leaf-file-name="teacher_info.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher_info.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionDbController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/questionDb/controller/QuestionDbController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroUser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/core/shiro/ShiroUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/auth/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-552">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -252,9 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/base/service/ITestPointService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/base/wrapper/TestingPointWrapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/testingPoint/testingPoint.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/TopNav.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/topnav/topnav.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/status/userType.java" />
@@ -283,7 +245,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/auth/service/serviceImpl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/ExamApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/config/web/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/Tip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/SuccessTip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/auth/dao/AdminRepository.java" />
@@ -296,13 +257,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/core/shiro/ShiroAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/core/shiro/ShiroKit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/service/ITeacherService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/service/serviceImpl/TeacherServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/core/shiro/ShiroUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/common/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/core/shiro/ShiroUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherMagController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher_info.js" />
       </list>
     </option>
   </component>
@@ -414,71 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="topNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="teacher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,6 +406,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hi-exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hi-exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,38 +516,8 @@
               <option name="myItemId" value="modular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="teacher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,7 +551,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="teacher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -684,75 +585,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hi-exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beetl" />
+              <option name="myItemId" value="modular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -822,15 +655,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../law" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\developer\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -1428,11 +1261,12 @@
       <workItem from="1511483236927" duration="23000" />
       <workItem from="1511670679309" duration="17450000" />
       <workItem from="1511743677747" duration="20207000" />
+      <workItem from="1511772646166" duration="4150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235465000" />
+    <option name="totallyTimeSpent" value="239615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1440,7 +1274,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30793652" sideWeight="0.25416666" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16825397" sideWeight="0.1140625" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1451,12 +1285,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18730159" sideWeight="0.315625" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37037036" sideWeight="0.3125" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793652" sideWeight="0.74583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16825397" sideWeight="0.8859375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1487,7 +1321,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher_info.js</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1496,106 +1338,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/dao/TopNavRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/topNav/topNav_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/system/topNav/topNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/wrapper/TopNavWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/serviceImpl/TopNavServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1507#1508#0" expanded="false" />
-            <element signature="e#1556#1557#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/service/ITopNavService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/system/controller/TopNavController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/config/properties/BeetlProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/config/properties/ExamProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/base/model/Chapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/model/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,9 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1623,7 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1640,20 +1382,20 @@
         <state relative-caret-position="320">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#922#923#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
+            <element signature="e#997#998#0" expanded="false" />
+            <element signature="e#1028#1029#0" expanded="false" />
+            <element signature="e#1076#1077#0" expanded="false" />
+            <element signature="e#1116#1117#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1214#1215#0" expanded="false" />
+            <element signature="e#1246#1247#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1662,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1680,7 +1421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1700,23 +1440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/common/constant/tip/Tip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1724,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1732,7 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1748,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1756,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,7 +1487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1780,7 +1502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1788,7 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,10 +1516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1807,7 +1523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1836,7 +1551,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1844,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1852,40 +1565,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/auth/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
+        <state relative-caret-position="207">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#2863#2864#0" expanded="false" />
+            <element signature="e#2891#2892#0" expanded="false" />
+            <element signature="e#2926#2927#0" expanded="false" />
+            <element signature="e#2957#2958#0" expanded="false" />
+            <element signature="e#3005#3006#0" expanded="false" />
+            <element signature="e#3045#3046#0" expanded="false" />
+            <element signature="e#3080#3081#0" expanded="false" />
+            <element signature="e#3111#3112#0" expanded="false" />
+            <element signature="e#3159#3160#0" expanded="false" />
+            <element signature="e#3199#3200#0" expanded="false" />
+            <element signature="e#3234#3235#0" expanded="false" />
+            <element signature="e#3265#3266#0" expanded="false" />
+            <element signature="e#3313#3314#0" expanded="false" />
+            <element signature="e#3353#3354#0" expanded="false" />
+            <element signature="e#3391#3392#0" expanded="false" />
+            <element signature="e#3425#3426#0" expanded="false" />
+            <element signature="e#3479#3480#0" expanded="false" />
+            <element signature="e#3525#3526#0" expanded="false" />
+            <element signature="e#3557#3558#0" expanded="false" />
+            <element signature="e#3585#3586#0" expanded="false" />
+            <element signature="e#3627#3628#0" expanded="false" />
+            <element signature="e#3661#3662#0" expanded="false" />
+            <element signature="e#3696#3697#0" expanded="false" />
+            <element signature="e#3727#3728#0" expanded="false" />
+            <element signature="e#3775#3776#0" expanded="false" />
+            <element signature="e#3815#3816#0" expanded="false" />
+            <element signature="e#3846#3847#0" expanded="false" />
+            <element signature="e#3873#3874#0" expanded="false" />
+            <element signature="e#3913#3914#0" expanded="false" />
+            <element signature="e#3945#3946#0" expanded="false" />
+            <element signature="e#3985#3986#0" expanded="false" />
+            <element signature="e#4021#4022#0" expanded="false" />
+            <element signature="e#4079#4080#0" expanded="false" />
+            <element signature="e#4129#4130#0" expanded="false" />
+            <element signature="e#4165#4166#0" expanded="false" />
+            <element signature="e#4196#4197#0" expanded="false" />
+            <element signature="e#4245#4246#0" expanded="false" />
+            <element signature="e#4285#4286#0" expanded="false" />
+            <element signature="e#4318#4319#0" expanded="false" />
+            <element signature="e#4347#4348#0" expanded="false" />
+            <element signature="e#4391#4392#0" expanded="false" />
+            <element signature="e#4427#4428#0" expanded="false" />
+            <element signature="e#4464#4465#0" expanded="false" />
+            <element signature="e#4499#4500#0" expanded="false" />
+            <element signature="e#4553#4554#0" expanded="false" />
+            <element signature="e#4601#4602#0" expanded="false" />
+            <element signature="e#4639#4640#0" expanded="false" />
+            <element signature="e#4675#4676#0" expanded="false" />
+            <element signature="e#4731#4732#0" expanded="false" />
+            <element signature="e#4781#4782#0" expanded="false" />
+            <element signature="e#4812#4813#0" expanded="false" />
+            <element signature="e#4839#4840#0" expanded="false" />
+            <element signature="e#4879#4880#0" expanded="false" />
+            <element signature="e#4911#4912#0" expanded="false" />
+            <element signature="e#4945#4946#0" expanded="false" />
+            <element signature="e#4974#4975#0" expanded="false" />
+            <element signature="e#5019#5020#0" expanded="false" />
+            <element signature="e#5055#5056#0" expanded="false" />
+            <element signature="e#5086#5087#0" expanded="false" />
+            <element signature="e#5113#5114#0" expanded="false" />
+            <element signature="e#5153#5154#0" expanded="false" />
+            <element signature="e#5185#5186#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/service/serviceImpl/TeacherServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="805">
           <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/config/web/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="136" column="26" lean-forward="false" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1893,15 +1650,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="759">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1911,8 +1668,8 @@
         <state relative-caret-position="1311">
           <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1601#1602#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1925,20 +1682,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/common/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+        <state relative-caret-position="1403">
+          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="false" />
+            <element signature="e#1558#1559#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1952,14 +1702,132 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/core/shiro/ShiroUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index/_newvideo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3310">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="85" lean-forward="false" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/questionDb/controller/QuestionDbController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teachmag/teacher/teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teachmag/teacher/teacher_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/modular/teacher/controller/TeacherMagController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/modular/teachmag/teacher/teacher_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hidear/exam/config/web/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
           <folding />
         </state>
       </provider>

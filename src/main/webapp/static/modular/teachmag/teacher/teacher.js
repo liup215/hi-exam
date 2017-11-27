@@ -30,7 +30,7 @@ layui.use(['form','jquery','table'],function () {
         cols:Teacher.initColumn(),
         page:true,
         id:Teacher.elem,
-        url:"/teacher/list"
+        url:"/teachermag/list"
     })
 
     //检查是否选中
@@ -56,7 +56,7 @@ layui.use(['form','jquery','table'],function () {
             area: ['830px', '450px'], //宽高
             fix: false, //不固定
             maxmin: true,
-            content:'/teacher/teacher_add'
+            content:'/teachermag/teacher_add'
         });
         Teacher.layerIndex = index;
     })
@@ -69,7 +69,7 @@ layui.use(['form','jquery','table'],function () {
                 area: ['800px', '450px'], //宽高
                 fix: false, //不固定
                 maxmin: true,
-                content: '/teacher/teacher_edit/' + Teacher.seItem.id
+                content: '/teachermag/teacher_edit/' + Teacher.seItem.id
             });
             Teacher.layerIndex = index;
         }
@@ -79,7 +79,7 @@ layui.use(['form','jquery','table'],function () {
         if (Teacher.check()) {
             layer.confirm("是否刪除学科?", function (index) {
                 $.ajax({
-                    url:'/teacher/delete',
+                    url:'/teachermag/delete',
                     data:{teacherId:Teacher.seItem.id},
                     success:function (data) {
                         layer.msg("删除成功！");

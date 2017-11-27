@@ -25,8 +25,8 @@ import java.util.*;
  * Created by Administrator on 2017/8/24.
  */
 @Controller
-@RequestMapping("/teacher")
-public class TeacherController {
+@RequestMapping("/teachermag")
+public class TeacherMagController {
     private String PREFIX = "/teachmag/teacher/";
 
     @Autowired
