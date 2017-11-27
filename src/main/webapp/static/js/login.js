@@ -1,19 +1,29 @@
-/*
-* @Author: Larry
-* @Date:   2016-12-15 17:20:54
-* @Last Modified by:   qinsh
-* @Last Modified time: 2016-12-24 21:51:17
-* +----------------------------------------------------------------------
-* | LarryBlogCMS [ LarryCMS网站内容管理系统 ]
-* | Copyright (c) 2016-2017 http://www.larrycms.com All rights reserved.
-* | Licensed ( http://www.larrycms.com/licenses/ )
-* | Author: qinshouwei <313492783@qq.com>
-* +----------------------------------------------------------------------
-*/
-'use strict';
-layui.use(['jquery'],function(){
+
+layui.use(['jquery','form'],function(){
 	window.jQuery = window.$ = layui.jquery;
-   $(".layui-canvs").width($(window).width());
-   $(".layui-canvs").height($(window).height());
+	var form = layui.form;
+    $(".layui-canvs").width($(window).width());
+    $(".layui-canvs").height($(window).height());
+
+
+    form.on("submit(login)",function (e) {
+        var postData = e.field;
+        $.ajax({
+            url:"/login",
+            type:"POST",
+            data:postData,
+            success:function (data) {
+                if(data.code==200){
+                    if(postData.isAdmin==1){
+                        window.location.href = "/admin";
+                    }else{
+                        window.location.href = "/";
+                    }
+
+                }
+            }
+        })
+        return false;
+    })
 
 });

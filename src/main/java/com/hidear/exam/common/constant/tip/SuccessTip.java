@@ -18,4 +18,11 @@ public class SuccessTip extends Tip{
         this.code = code;
         this.message = message;
     }
+
+    public SuccessTip(Object data){
+        super();
+        code = 200;
+        message = "操作成功";
+        data = data;
+    }
 }

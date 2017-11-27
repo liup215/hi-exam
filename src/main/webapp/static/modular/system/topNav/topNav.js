@@ -19,7 +19,7 @@ layui.use(['form','jquery','table'],function () {
             {checkbox:true},
             {title:'id',field: 'id',width:50},
             {title:'导航名称',field:'name',width:100},
-            {title:'用户角色',field:'userType',width:100},
+            {title:'用户角色',field:'userTypeName',width:100},
             {title:'url',field: 'url',width:100}]];
         return columns;
     };

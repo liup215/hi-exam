@@ -8,6 +8,7 @@ import com.hidear.exam.core.support.BeanKit;
 import com.hidear.exam.core.util.ToolUtil;
 import com.hidear.exam.modular.teacher.dao.TeacherRepository;
 import com.hidear.exam.modular.teacher.model.Teacher;
+import com.hidear.exam.modular.teacher.service.ITeacherService;
 import com.hidear.exam.modular.teacher.status.TeacherStatus;
 import org.apache.commons.collections.map.HashedMap;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,9 @@ public class TeacherController {
 
     @Autowired
     TeacherRepository teacherRepository;
+
+    @Autowired
+    ITeacherService teacherService;
 
     @RequestMapping("")
     public String index(){
@@ -69,9 +73,8 @@ public class TeacherController {
         if(result.hasErrors()){
             throw new BussinessException(BizExceptionEnum.REQUEST_NULL);
         }
-        teacher.setcTime((new Date().getTime()));
-        teacher.setmTime((new Date().getTime()));
-        teacherRepository.save(teacher);
+
+        teacherService.add(teacher);
         return new SuccessTip();
     }
 

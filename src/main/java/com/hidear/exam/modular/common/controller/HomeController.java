@@ -1,19 +1,33 @@
 package com.hidear.exam.modular.common.controller;
 
+import com.hidear.exam.common.constant.tip.SuccessTip;
+import com.hidear.exam.common.constant.tip.Tip;
 import com.hidear.exam.common.node.MenuNode;
+import com.hidear.exam.core.shiro.AdminToken;
+import com.hidear.exam.core.shiro.BaseShiro;
+import com.hidear.exam.core.shiro.ShiroKit;
+
+import com.hidear.exam.core.shiro.ShiroUser;
+import com.hidear.exam.modular.system.model.TopNav;
 import com.hidear.exam.modular.system.service.IMenuService;
 import com.hidear.exam.modular.system.service.IRoleService;
+import com.hidear.exam.modular.system.service.ITopNavService;
+
+import com.hidear.exam.modular.system.status.UserType;
+import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+
 import java.util.List;
-import java.util.Map;
+
 
 /**
  * Created by acer on 2017/7/21.
@@ -23,10 +37,13 @@ import java.util.Map;
 public class HomeController {
 
     @Autowired
-    IMenuService menuServiceImpl;
+    IMenuService menuService;
 
     @Autowired
-    IRoleService roleServiceImpl;
+    IRoleService roleService;
+
+    @Autowired
+    ITopNavService topNavService;
 
 
     @RequestMapping("/")
@@ -35,33 +52,25 @@ public class HomeController {
     }
 
     @RequestMapping("/index")
-    public String home(@RequestParam Integer userType, Model model){
-        List<Map<String,String>> topNav = new ArrayList<>();
-        Map<String,String> topNavItem = new HashMap<>();
+    public String home( Model model){
 
-        if(userType.equals(1)){
-            for(int i = 0;i<4;i++){
-                topNavItem.put("name","教师导航" + i);
-                topNav.add(topNavItem);
-            }
-        }else if(userType.equals(2)){
-            for(int i = 0;i<4;i++){
-                topNavItem.put("name","学生导航" + i);
-                topNav.add(topNavItem);
-            }
-        }else if(userType.equals(3)){
-            for(int i = 0;i<4;i++){
-                topNavItem.put("name","家长导航" + i);
-                topNav.add(topNavItem);
-            }
-        }else{
-            for(int i = 0;i<4;i++){
-                topNavItem.put("name","游客导航" + i);
-                topNav.add(topNavItem);
-            }
+        BaseShiro shiro = ShiroKit.getUser();
+
+        if(shiro == null){
+            return "/login";
         }
 
-        model.addAttribute("topNav",topNav);
+        if(shiro instanceof ShiroUser){
+            ShiroUser shiroUser = (ShiroUser)shiro;
+            model.addAttribute("shiroUser",shiroUser);
+            Integer userType = shiroUser.getUserType();
+            List<TopNav> topNavs = topNavService.getTopNavsByUserType(userType);
+            model.addAttribute("topNav",topNavs);
+
+        }else{
+            return "redirect:/admin";
+        }
+
         return "/index.html";
     }
 
@@ -70,22 +79,39 @@ public class HomeController {
      * @return 登录页面地址
      */
     @RequestMapping("/login")
-    public String loginPage(){
+    public String loginPage(Model model){
+
+        model.addAttribute("userTypes", UserType.values());
+
         return "/login.html";
     }
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
-    public String login(Model model){
-
+    @ResponseBody
+    public Tip login(@RequestParam String username,@RequestParam String password, @RequestParam Integer isAdmin){
         //登录逻辑
+        Subject currentUser = ShiroKit.getSubject();
+        if(isAdmin==0){
+            UsernamePasswordToken token = new UsernamePasswordToken(username,password);
+            token.setRememberMe(true);
+            currentUser.login(token);
+        }else {
+            AdminToken token = new AdminToken(username,password);
+            token.setRememberMe(true);
+            currentUser.login(token);
+        }
 
-        return "redirect:/admin";
+        BaseShiro shiroUser = ShiroKit.getUser();
+
+        ShiroKit.getSession().setAttribute("shiroUser",shiroUser);
+
+        return new SuccessTip();
     }
 
     @RequestMapping(value = "/admin")
     public String admin(Model model){
 
-        List<MenuNode> menus = menuServiceImpl.getMenusNodes();
+        List<MenuNode> menus = menuService.getMenusNodes();
 
         List<MenuNode> titles = MenuNode.buildTitle(menus);
         model.addAttribute("titles",titles);

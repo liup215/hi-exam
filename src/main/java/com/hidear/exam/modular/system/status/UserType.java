@@ -7,7 +7,8 @@ public enum UserType {
     VISITOR(0,"游客"),
     TEACHER(1,"教师"),
     STUDENT(2,"学生"),
-    PARENTS(3,"家长");
+    PARENTS(3,"家长"),
+    ADMIN(4,"管理员");
 
     int code;
     String name;

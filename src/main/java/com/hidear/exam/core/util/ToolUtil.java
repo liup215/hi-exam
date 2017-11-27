@@ -57,4 +57,8 @@ public class ToolUtil {
             return o.toString();
         }
     }
+
+    public static String getTempPath(){
+        return System.getProperty("java.io.tmpdir");
+    }
 }

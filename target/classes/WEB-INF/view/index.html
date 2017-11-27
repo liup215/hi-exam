@@ -24,28 +24,24 @@
             <!-- 头部区域（可配合layui已有的水平导航） -->
             <ul class="layui-nav layui-layout-left ">
                 @for(topNavItem in topNav){
-                <li class="layui-nav-item"><a href="">${topNavItem.name}</a></li>
+                <li class="layui-nav-item"><a href="${topNavItem.url}">${topNavItem.name}</a></li>
                 @}
             </ul>
             <ul class="layui-nav layui-layout-right">
 
-                <li class="layui-nav-item"><a href="">登录</a></li>
-                <li class="layui-nav-item"><a href="">注册</a></li>
-
-                @/*
                 <li class="layui-nav-item">
                     <a href="javascript:;">
                         <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
-                        贤心
+                        ${shiroUser.nickname}
                     </a>
                     <dl class="layui-nav-child">
                         <dd><a href="">基本资料</a></dd>
                         <dd><a href="">安全设置</a></dd>
+                        <dd><a href="">退出登录</a></dd>
                     </dl>
                 </li>
 
-                <li class="layui-nav-item"><a href="">退了</a></li>
-                @*/
+                <li class="layui-nav-item"><a href=""></a></li>
             </ul>
         </div>
     </div>
